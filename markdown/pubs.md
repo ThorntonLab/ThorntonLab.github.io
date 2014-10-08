@@ -64,7 +64,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 * Thornton, K., D. Bachtrog, and P. Andolfatto (2006)  X-chromosomes and autosomes evolve at similar rates in _Drosophila_ - no evidence for faster-X protein evolution. Genome Research __16__: 498-504 [Manuscript](http://genome.cshlp.org/content/16/4/498.full)
 
-* D. Bachtrog, K. Thornton, A. Clark, and P. Andolfatto (2006) Extensive introgression of mitochondrial DNA relative to nuclear genes in the _Drosophila yakuba_ species group.  Evolution __60__: 292-302 %54
+* D. Bachtrog, K. Thornton, A. Clark, and P. Andolfatto (2006) Extensive introgression of mitochondrial DNA relative to nuclear genes in the _Drosophila yakuba_ species group.  Evolution __60__: 292-302 
 
 * G.M. Wilson, S. Flibotte, P.I. Missirlis, M.A. Marra, S. Jones, K. Thornton, A.G. Clark, and R.A. Holt. (2006) Identification by full coverage array CGH of human DNA copy number increases relative to chimpanzee and gorilla. Genome Research __16__: 173-181 PMID: 16365383
 
