@@ -6,7 +6,7 @@
 
 * [Simulation source code and output](http://devlaeminck.bio.uci.edu/ThorntonForanLongPLoSGenetics.html) from Thornton, Foran, and Long (2013) Properties and Modeling of GWAS when Complex Disease Risk is due to non-complementing, deleterious mutations in genes of large effect. PLoS Genetics 9: e1003258
 
-* [Source code and other resources](http:/devlaeminck.bio.uci.edu/tepipeline/) from Cridland, MacDonald, Long, and Thornton (2013) Abundance and Distribution of Transposable Elements in two Drosophila QTL Mapping Resources. Molecular Biology and Evolution. 
+* [Source code and other resources](http://devlaeminck.bio.uci.edu/tepipeline/) from Cridland, MacDonald, Long, and Thornton (2013) Abundance and Distribution of Transposable Elements in two Drosophila QTL Mapping Resources. Molecular Biology and Evolution. 
 
 * A [version](http://devlaeminck.bio.uci.edu/tepipeline/line99_example.tar.gz) of the Cridland et al. (2013) pipeline for TE detection with example data is also available. This version comes with simulated sample data and a master script to execute the pipeline from start to finish.
 
