@@ -6,7 +6,7 @@
 
 * [Simulation code](https://github.com/ThorntonLab/TFL2013sim) and [output](http://devlaeminck.bio.uci.edu//www/Data/ThorntonForanLongPLoSGenetics) from Thornton, Foran, and Long (2013) Properties and Modeling of GWAS when Complex Disease Risk is due to non-complementing, deleterious mutations in genes of large effect. PLoS Genetics 9: e1003258.  __NOTE__: the code is out of date in this repo, and you are better off using the version that is in included with [fwdpp](https://github.com/molpopgen/fwdpp) as an example program.
 
-* There are several resources from from Cridland, MacDonald, Long, and Thornton (2013) Abundance and Distribution of Transposable Elements in two Drosophila QTL Mapping Resources. Molecular Biology and Evolution. [Manuscript](http://mbe.oxfordjournals.org/content/30/10/2311.abstract)
+* There are several resources from from Cridland, MacDonald, Long, and Thornton (2013) Abundance and Distribution of Transposable Elements in two Drosophila QTL Mapping Resources. Molecular Biology and Evolution. [Manuscript](http://mbe.oxfordjournals.org/content/30/10/2311.abstract).  These resource are:
 1. [Pipeline code](https://github.com/ThorntonLab/Cridland2013pipeline) for calling TE presence/absence
 2. [Pipeline code](https://github.com/ThorntonLab/Cridland2013AnnotPipeline) for annotating TE calls
 3. [Regions of high IBD](https://github.com/ThorntonLab/DGRPmasked) in the DGRP lines
@@ -14,4 +14,4 @@
 
 * [Code](https://github.com/molpopgen/baldwin_brown_2014) from Baldwin-Brown, Long, and Thornton (2014) Mol Biol Evol is on Thornton’s github repository.
 
-* Supplementary material from Rogers et al. (submitted) Landscape of tandem duplication in Drosophila yakuba and Drosophila simulans. Please note: the BED files for D. simulans are based on the w501 reference genome, hosted at Peter Andolfatto’s website. If you plug our BED files into the UCSC browser, you’ll be quite a bit off in terms of coordinates, as they are still using the Begun et al. reference.
+* [Supplementary material](rogers2014.html) from Rogers et al. (2014) Landscape of tandem duplication in Drosophila yakuba and Drosophila simulans. Please note: the BED files for D. simulans are based on the w501 reference genome, hosted at Peter Andolfatto’s website. If you plug our BED files into the UCSC browser, you’ll be quite a bit off in terms of coordinates, as they are still using the Begun et al. reference.
