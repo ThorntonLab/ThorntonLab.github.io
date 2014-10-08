@@ -1,5 +1,7 @@
 ##People
 
+Please look [here](joining.html) for info on joining the lab.
+
 ###PI
 
 [Kevin Thornton](krthornt.html)
