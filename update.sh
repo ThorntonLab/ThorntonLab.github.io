@@ -18,5 +18,5 @@ do
 	git add ./${i//md/html}
 done
 
-git commit -am "update"; 
-git push
+#git commit -am "update"; 
+#git push
