@@ -6,7 +6,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 * __Rogers, R. L.__, __L. Shao__, __J. Sanjak__, P. Andolfatto and K. R. Thornton (Accepted) Sex-biased expression in the Drosophila melanogaster group.  G3: Genes, Genomes, Genetics. [Preprint online](http://g3journal.org/content/early/2014/10/01/g3.114.013532.abstract)
 
-* Thornton, K. R. (2014) A C++ template library for efficient forward-time population genetic simulation of large populations.  Genetics 98:157-166  PMID: 24950894, [Manuscript](http://www.genetics.org/content/198/1/157.abstract}{Manuscript), [Software](https://github.com/molpopgen/fwdpp)
+* Thornton, K. R. (2014) A C++ template library for efficient forward-time population genetic simulation of large populations.  Genetics 98:157-166  PMID: 24950894, [Manuscript](http://www.genetics.org/content/198/1/157.abstract), [Software](https://github.com/molpopgen/fwdpp)
 
 * __Rogers, R. L.__, __J. M. Cridland__, __L. Shao__, T. T. Hu, P. Andolfatto and K. R. Thornton (2014) Landscape of standing variation for tandem duplications in _Drosophila yakuba_ and _Drosophila simulans_.  Molecular Biology and Evolution __31__: 1750-1766 PMID 24710518, [Manuscript](http://mbe.oxfordjournals.org/content/31/7/1750.abstract.html)
  
@@ -83,7 +83,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 * Wang, W., K. Thornton, J.J. Emerson, and M. Long (2004) Nucleotide variation and recombination along the fourth chromosome in _Drosophila simulans_. Genetics __166__: 1783-1794
 
 ###2003
-* Thornton, K. (2003) libsequence, a C++ class library for evolutionary genetic analysis. Bioinformatics __19__(17): 2325-2327  PMID 14630667 [Software](https://github.com/molpopgen/libsequence)
+* Thornton, K. (2003) libsequence, a C++ class library for evolutionary genetic analysis. Bioinformatics __19__(17): 2325-2327  PMID 14630667 [Manuscript](http://bioinformatics.oxfordjournals.org/content/19/17/2325.short), [Software](https://github.com/molpopgen/libsequence)
 
 * Long, M., E. Betran, K. Thornton, and W. Wang. (2003) Origin of new genes: Glimpses from the young and old. Nature Reviews Genetics __4__: 865-875
 
