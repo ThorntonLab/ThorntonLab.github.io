@@ -8,7 +8,7 @@
 
 ###Simulation software
 
-* [Code] for simulating a neutral coalescent process for copy-number variants that I used in [Thornton 2007](http://www.genetics.org/content/177/2/987.abstract)
+* [Code](https://github.com/molpopgen/newgene) for simulating a neutral coalescent process for copy-number variants that I used in [Thornton 2007](http://www.genetics.org/content/177/2/987.abstract)
 
 * [Code](https://github.com/molpopgen/sweepsims) from [Thornton and Jensen (2007)](http://www.genetics.org/content/175/2/737.abstract). This code simulates a sweep in a bottlenecked population, plus the ancestral population. See paper for details.
 
