@@ -18,7 +18,9 @@
 
 * [omega](https://github.com/molpopgen/omega) Calculates Kim and Nielsen's (2004, Genetics 167:1513) "omega_max" statistic which was explored in Jensen et al. (2007, Genetics 176 2371-3279). Please read the source code for documentation. Both Kim and Nielsen and Jensen et al. should be cited if this code is used--the first for the statistic, the latter for the implementation.
 
-Some older tools (rhothetapost, msff and msld) will arrive when I get time to update them and put them on github)
+* [msld](https://github.com/molpopgen/msff) calculates LD-related statistics from the output of simulations using the same format as Hudson's ms.
+
+Some older tools (rhothetapost and msld) will arrive when I get time to update them and put them on github.  These tools should just be binned, as there are currently much better ways to do those tasks than my original attempts.
 
 ###Tools for data analysis
 
