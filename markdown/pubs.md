@@ -1,6 +1,6 @@
 ## Publications
 
-Names of Thornton lab members are in bold face.
+Names of Thornton lab members are in bold face. The names of students and postdocs from other labs are UCI labs are in italics
 
 ###2014
 
@@ -10,7 +10,7 @@ Names of Thornton lab members are in bold face.
 
 * __Rogers, R. L.__, __J. M. Cridland__, __L. Shao__, T. T. Hu, P. Andolfatto and K. R. Thornton (2014) Landscape of standing variation for tandem duplications in _Drosophila yakuba_ and _Drosophila simulans_.  Molecular Biology and Evolution __31__: 1750-1766 PMID 24710518, [Manuscript](http://mbe.oxfordjournals.org/content/31/7/1750.abstract.html)
  
-* Baldwin-Brown, J., A. D. Long, and K. R. Thornton (2014) The Power to Detect Quantitative Trait Loci Using Resequenced, Experimentally Evolved Populations of Diploid, Sexual Organisms.  Molecular Biology and Evolution __31__: 1040-1055. PMID 24441104, [Manuscript](http://mbe.oxfordjournals.org/content/31/4/1040.full)
+* _Baldwin-Brown, J._, A. D. Long, and K. R. Thornton (2014) The Power to Detect Quantitative Trait Loci Using Resequenced, Experimentally Evolved Populations of Diploid, Sexual Organisms.  Molecular Biology and Evolution __31__: 1040-1055. PMID 24441104, [Manuscript](http://mbe.oxfordjournals.org/content/31/4/1040.full)
 
 ###2013
 
@@ -25,3 +25,11 @@ Names of Thornton lab members are in bold face.
 * Garrigan, G., S. B. Kingan, A. J. Geneva, P. Andolfatto, A. G. Clark, K. R. Thornton, and D. C. Presgraves (2012) Genome sequencing reveals complex speciation in the _Drosophila simulans_ clade. Genome Research __22__: 1499-1511. PMID 22534282, [Manuscript](http://genome.cshlp.org/content/22/8/1499.abstract)
 
 * Mackay, T. F. C., S. Richards,	 E. A. Stone,	        A. Barbadilla,		   J. F. Ayroles,    D. Zhu,	      S. Casillas,  Y. Han,    M. M. Magwire,  __J. M. Cridland__,		    M. F. Richardson,	    R. R. H. Anholt,	    M. Barrón,	   C. Bess,  K. P. Blankenburg,  M. A. Carbone,  D. Castellano,  L. Chaboub,  L. Duncan,  Z. Harris,  M. Javaid,  J. C. Jayaseelan, S. N. Jhangiani,  K. W. Jordan,  F. Lara,  F. Lawrence,  S. L. Lee,  P. Librado,  R. S. Linheiro,  R. F. Lyman,  A. J. Mackey,  M. Munidasa,  D. M. Muzny,  L. Nazareth,  I. Newsham,  L. Perales,  L.-L. Pu,  C. Qu,  M. Ràmia, J. G. Reid,  S. M. Rollmann,  J. Rozas,  N. Saada,  L. Turlapati,  K. C. Worley,  Y.-Q. Wu,  A. Yamamoto,  Y. Zhu,  C. M. Bergman,  K. R. Thornton, D. Mittelman and R. A. Gibbs (2012) The _Drosophila melanogaster_ genetic reference panel.  Nature __482__: 173-178. PMID 22318601
+
+###2010
+
+* Sainudiin, R., K. Thornton, J. Harlow, J. Booth, M. Stillman, R. Yoshida, R. Griffiths, G. McVean, and P. Donnelly.  (2010) Experiments with the site-frequency spectrum.  Bulletin of Mathematical Biology, Algebraic Biology Special Edition, 0092-8__240__, p.1-44. PMID: 21181503 
+
+* _Burke, M. K._, J. P. Dunham, P. Shahrestani, K. R. Thornton, M. R. Rose, and A. D. Long (2010) Genome-wide analysis of a long-term evolution experiment with _Drosophila. Nature __467__, 587–590. PMID 20844486
+
+*  __Cridland, J.M.__ and K.R Thornton (2010) Validation of rearrangement breakpoints identified by paired-end sequencing in natural populations of _Drosophila melanogaster_.   Genome Biology and Evolution.  2010: 83-101. PMID 20333226, [Manuscript](http://gbe.oxfordjournals.org/content/2/83.full)
