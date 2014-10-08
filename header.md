@@ -1,1 +1,1 @@
-####[Home](index.html) || [Publications](pubs.html) || [Research](research.html) || [People](people.html) || [New](news.html)
+####[Home](index.html) || [Publications](pubs.html) || [Research](research.html) || [People](people.html) || [News](news.html)
