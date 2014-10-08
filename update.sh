@@ -3,26 +3,26 @@
 #Process the header
 pandoc -S -s -c pandoc.css header.md -o header.html
 
-cd Data
+# cd Data
 
-for i in *.md
-do
-    n=`basename $i .md`
-    echo processing $i
-    pandoc -S -s -c ../pandoc.css -H ../header.html -o $n.html $i
-done
+# for i in *.md
+# do
+#     n=`basename $i .md`
+#     echo processing $i
+#     pandoc -S -s -c ../pandoc.css -H ../header.html -o $n.html $i
+# done
 
-cd ../software
+# cd ../software
 
-for i in *.md
-do
-    n=`basename $i .md`
-    echo processing $i
-    pandoc -S -s -c ../pandoc.css -H ../header.html -o $n.html $i
-done
+# for i in *.md
+# do
+#     n=`basename $i .md`
+#     echo processing $i
+#     pandoc -S -s -c ../pandoc.css -H ../header.html -o $n.html $i
+# done
 
 
-cd ../markdown
+cd markdown
 
 for i in *.md
 do
