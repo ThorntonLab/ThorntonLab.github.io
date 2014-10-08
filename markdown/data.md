@@ -8,7 +8,7 @@
 
 * There are several resources from from Cridland, MacDonald, Long, and Thornton (2013) Abundance and Distribution of Transposable Elements in two Drosophila QTL Mapping Resources. Molecular Biology and Evolution. [Manuscript](http://mbe.oxfordjournals.org/content/30/10/2311.abstract)
 1. [Pipeline code](https://github.com/ThorntonLab/Cridland2013pipeline) for calling TE presence/absence
-2. [Pipeline code](https://github.com/ThorntonLab/Cridlant2013AnnotPipeline) for annotating TE calls
+2. [Pipeline code](https://github.com/ThorntonLab/Cridland2013AnnotPipeline) for annotating TE calls
 3. [Regions of high IBD](https://github.com/ThorntonLab/DGRPmasked) in the DGRP lines
 4. [A version](http://devlaeminck.bio.uci.edu/tepipeline/line99_example.tar.gz) of the pipeline + an example data set.
 
