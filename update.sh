@@ -1,22 +1,25 @@
-#! /bin/zsh
+#!/bin/bash
+
+#Process the header
+pandoc -S -s -c pandoc.css header.md -o header.html
 
 cd markdown
 
-for i in *.md; 
+for i in *.md
 do
-	pandoc -S -s -c ../pandoc.css -H ../header.html -o ../${i//md/html} $i	
-	#pandoc -S -s -c ../pygment_trac.css -c ../styles.css -o ../${i//md/html} $i	
+    n=`basename $i .md`
+    echo processing $i
+    pandoc -S -s -c ../pandoc.css -H ../header.html -o ../$n.html $i	
 done
 
 
-cd ../blogs
+#cd ../blogs
 
-for i in *.md; 
-do
+#for i in *.md; 
+#do
 	pandoc -S -s -c ../pandoc.css -H ../header.html -o ./${i//md/html} $i	
-	#pandoc -S -s -c ../pygment_trac.css -c ../styles.css -o ./${i//md/html} $i	
-	git add ./${i//md/html}
-done
+#	git add ./${i//md/html}
+#done
 
 #git commit -am "update"; 
 #git push
