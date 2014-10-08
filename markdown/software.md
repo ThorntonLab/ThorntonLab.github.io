@@ -14,6 +14,12 @@
 
 * [Code](https://github.com/molpopgen/sweepsims) for models of recurrent hitch-hlking used in [Jensen, Thornton and Andolfatto (2008) PLoS Genetics](http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1000198)
 
+* [msstats](https://github.com/molpopgen/msstats) processes the output of coalescent simulations and calculates various summary statistics
+
+* [omega](https://github.com/molpopgen/omega) Calculates Kim and Nielsen's (2004, Genetics 167:1513) "omega_max" statistic which was explored in Jensen et al. (2007, Genetics 176 2371-3279). Please read the source code for documentation. Both Kim and Nielsen and Jensen et al. should be cited if this code is used--the first for the statistic, the latter for the implementation.
+
+Some older tools (rhothetapost, msff and msld) will arrive when I get time to update them and put them on github)
+
 ###Tools for data analysis
 
 * [analysis](https://github.com/molpopgen/analysis) programs for the (pre-NGS-era) analysis of population-genetic data.
