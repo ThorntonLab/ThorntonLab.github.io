@@ -13,5 +13,11 @@
 **Jaleal Sanjak**
 
 Jaleal is a graduate student who came to UCI through the systems biology gateway [program](http://mcsb.uci.edu/).
+<br><br>
 
 ###Lab alumni
+
+* Rebekah Rogers (postdoc 2011-2014) is currently a postdoc with Monty Slatkin at UC Berkley
+* Julie Cridland (PhD) is currently a postdoc at UC Davis
+* Andrew Foran (undergraduate) worked on simulations of disease models and dissected flies for RNA-seq analysis
+* Ling Shae (lab manager, 2008-2014) played a central role in the _Drosophila_ population genomics work 
