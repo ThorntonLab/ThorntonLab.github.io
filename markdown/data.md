@@ -4,11 +4,13 @@
 
 * [Alignments and annotations](https://github.com/ThorntonLab/ThornonLong2005MBE) from Thornton and Long (2005) Excess of Amino Acid Substitutions Relative to Polymorphism Between X-Linked Duplications in Drosophila melanogaster. Mol. Biol. Evol. 22: 273-284. This contains the alignments used for summary statistics, and the annotation files compatible with "polydNdS" in my analysis software package. It currently does not contain the files used for McDonald-Kreitman tests, or the analysis of gene conversion between paralogs. For the moment, those are available on request to Kevin Thornton.
 
-* [Simulation source code and output](http://devlaeminck.bio.uci.edu/ThorntonForanLongPLoSGenetics.html) from Thornton, Foran, and Long (2013) Properties and Modeling of GWAS when Complex Disease Risk is due to non-complementing, deleterious mutations in genes of large effect. PLoS Genetics 9: e1003258
+* [Simulation code](https://github.com/ThorntonLab/TFL2013sim) and [output](http://devlaeminck.bio.uci.edu//www/Data/ThorntonForanLongPLoSGenetics) from Thornton, Foran, and Long (2013) Properties and Modeling of GWAS when Complex Disease Risk is due to non-complementing, deleterious mutations in genes of large effect. PLoS Genetics 9: e1003258.  __NOTE__: the code is out of date in this repo, and you are better off using the version that is in included with [fwdpp](https://github.com/molpopgen/fwdpp) as an example program.
 
-* [Source code and other resources](http://devlaeminck.bio.uci.edu/tepipeline/) from Cridland, MacDonald, Long, and Thornton (2013) Abundance and Distribution of Transposable Elements in two Drosophila QTL Mapping Resources. Molecular Biology and Evolution. 
-
-* A [version](http://devlaeminck.bio.uci.edu/tepipeline/line99_example.tar.gz) of the Cridland et al. (2013) pipeline for TE detection with example data is also available. This version comes with simulated sample data and a master script to execute the pipeline from start to finish.
+* There are several resources from from Cridland, MacDonald, Long, and Thornton (2013) Abundance and Distribution of Transposable Elements in two Drosophila QTL Mapping Resources. Molecular Biology and Evolution. [Manuscript](http://mbe.oxfordjournals.org/content/30/10/2311.abstract)
+1. [Pipeline code](https://github.com/ThorntonLab/Cridland2013pipeline) for calling TE presence/absence
+2. [Pipeline code](https://github.com/ThorntonLab/Cridlant2013AnnotPipeline) for annotating TE calls
+3. [Regions of high IBD](https://github.com/ThorntonLab/DGRPmasked) in the DGRP lines
+4. [A version](http://devlaeminck.bio.uci.edu/tepipeline/line99_example.tar.gz) of the pipeline + an example data set.
 
 * [Code](https://github.com/molpopgen/baldwin_brown_2014) from Baldwin-Brown, Long, and Thornton (2014) Mol Biol Evol is on Thornton’s github repository.
 

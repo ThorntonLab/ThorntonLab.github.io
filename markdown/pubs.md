@@ -18,7 +18,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 * Thornton, K. R., __A. J. Foran__, and A. D. Long (2013) Properties and modeling of GWAS when complex disease risk is due to non-complementing, deleterious mutations in genes of large effect.  PLoS Genetics __9__: e1003258. PMID 23437004, [Manuscript](http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1003258), [Data](data.html)
 
-* Hu, T., M. B. Eisen, K. R. Thornton, and P. Andolfatto (2013) A second generation assembly of the _Drosophila simulans genome provides new insights into patterns of lineage-specific divergence.  Genome Research __23__: 89-98. PMID 22936249, [Manuscript](http://genome.cshlp.org/content/23/1/89.abstract)
+* Hu, T., M. B. Eisen, K. R. Thornton, and P. Andolfatto (2013) A second generation assembly of the _Drosophila simulans_ genome provides new insights into patterns of lineage-specific divergence.  Genome Research __23__: 89-98. PMID 22936249, [Manuscript](http://genome.cshlp.org/content/23/1/89.abstract)
 
 ###2012
 
@@ -88,7 +88,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 * Long, M., E. Betran, K. Thornton, and W. Wang. (2003) Origin of new genes: Glimpses from the young and old. Nature Reviews Genetics __4__: 865-875
 
 ###2002
-* Betran, E., K. Thornton, and M. Long (2002) Retroposed new genes out of the X in _Drosophila_. Genome Research 12: 1854-1859. 
+* Betran, E., K. Thornton, and M. Long (2002) Retroposed new genes out of the X in _Drosophila_. Genome Research __12__: 1854-1859. 
 
 * Thornton, K. and M. Long (2002)  Rapid Divergence of Gene Duplicates on the _Drosophila melanogaster_ X chromosome. Molecular Biology and Evolution __19__:918-925. 
 
