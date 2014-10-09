@@ -4,7 +4,7 @@ This page lists sequence data, alignments, etc., resulting from lab publications
 
 ###2014
 
- * [GFF](https://github.com/ThorntonLab/GFF) files from Rogers _et al._ (accepted) Revised annotations, sex-biased expression, and lineage-specific genes in the _Drosophila melanogaster_ group [Genetics](http://www.g3journal.org/content/early/2014/10/01/g3.114.013532.full.pdf).  The accession numbers for the RNA-seq data are PRJNA196536, PRJNA193071, PRJNA257286, and PRJNA257287.
+ * [GFF](https://github.com/ThorntonLab/GFF) files from Rogers _et al._ (accepted) Revised annotations, sex-biased expression, and lineage-specific genes in the _Drosophila melanogaster_ group [G3](http://www.g3journal.org/content/early/2014/10/01/g3.114.013532.full.pdf).  The accession numbers for the RNA-seq data are PRJNA196536, PRJNA193071, PRJNA257286, and PRJNA257287.
 
  * [Supplementary material](rogers2014.html) from Rogers _et al._ (2014) Landscape of tandem duplication in Drosophila yakuba and Drosophila simulans. Please note: the BED files for D. simulans are based on the w501 reference genome, hosted at Peter Andolfatto’s website. If you plug our BED files into the UCSC browser, you’ll be quite a bit off in terms of coordinates, as they are still using the Begun et al. reference. 
 
