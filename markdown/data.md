@@ -1,5 +1,7 @@
 ##Data
 
+This page lists sequence data, alignments, etc., resulting from lab publications.  A lot of our ouptut is software, which you can find at our [software](software.html) page.
+
 ###2014
 
 * [Code](https://github.com/molpopgen/baldwin_brown_2014) from Baldwin-Brown, Long, and Thornton (2014) Mol Biol Evol is on Thornton’s github repository. 
