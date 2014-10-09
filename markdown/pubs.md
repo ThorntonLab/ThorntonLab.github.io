@@ -4,19 +4,19 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 ###2014
 
-* __Rogers, R. L.__, __L. Shao__, __J. Sanjak__, P. Andolfatto and K. R. Thornton (Accepted) Sex-biased expression in the Drosophila melanogaster group.  G3: Genes, Genomes, Genetics. [Preprint online](http://g3journal.org/content/early/2014/10/01/g3.114.013532.abstract)
+* __Rogers, R. L.__, __L. Shao__, __J. Sanjak__, P. Andolfatto and K. R. Thornton (Accepted) Sex-biased expression in the Drosophila melanogaster group.  G3: Genes, Genomes, Genetics. [Preprint online](http://g3journal.org/content/early/2014/10/01/g3.114.013532.abstract) [GFF files](https://github.com/ThorntonLab/GFF)
 
 * Thornton, K. R. (2014) A C++ template library for efficient forward-time population genetic simulation of large populations.  Genetics 98:157-166  PMID: 24950894, [Manuscript](http://www.genetics.org/content/198/1/157.abstract), [Software](https://github.com/molpopgen/fwdpp)
 
-* __Rogers, R. L.__, __J. M. Cridland__, __L. Shao__, T. T. Hu, P. Andolfatto and K. R. Thornton (2014) Landscape of standing variation for tandem duplications in _Drosophila yakuba_ and _Drosophila simulans_.  Molecular Biology and Evolution __31__: 1750-1766 PMID 24710518, [Manuscript](http://mbe.oxfordjournals.org/content/31/7/1750.abstract.html)
+* __Rogers, R. L.__, __J. M. Cridland__, __L. Shao__, T. T. Hu, P. Andolfatto and K. R. Thornton (2014) Landscape of standing variation for tandem duplications in _Drosophila yakuba_ and _Drosophila simulans_.  Molecular Biology and Evolution __31__: 1750-1766 PMID 24710518, [Manuscript](http://mbe.oxfordjournals.org/content/31/7/1750.abstract.html) [Data](rogers2014.html)
  
-* _Baldwin-Brown, J._, A. D. Long, and K. R. Thornton (2014) The Power to Detect Quantitative Trait Loci Using Resequenced, Experimentally Evolved Populations of Diploid, Sexual Organisms.  Molecular Biology and Evolution __31__: 1040-1055. PMID 24441104, [Manuscript](http://mbe.oxfordjournals.org/content/31/4/1040.full)
+* _Baldwin-Brown, J._, A. D. Long, and K. R. Thornton (2014) The Power to Detect Quantitative Trait Loci Using Resequenced, Experimentally Evolved Populations of Diploid, Sexual Organisms.  Molecular Biology and Evolution __31__: 1040-1055. PMID 24441104, [Manuscript](http://mbe.oxfordjournals.org/content/31/4/1040.full) [Code](https://github.com/molpopgen/baldwin_brown_2014)
 
 ###2013
 
 * __Cridland, J.M.__, S.J. MacDonald, A.D. Long, and K.R Thornton (2013) Abundance and Distribution of Transposable Elements in Two _Drosophila_ QTL Mapping Resources  Molecular Biology and Evolution __30__: 2311-2327. PMID 23883524 [Manuscript](http://mbe.oxfordjournals.org/content/30/10/2311.full)
 
-* Thornton, K. R., __A. J. Foran__, and A. D. Long (2013) Properties and modeling of GWAS when complex disease risk is due to non-complementing, deleterious mutations in genes of large effect.  PLoS Genetics __9__: e1003258. PMID 23437004, [Manuscript](http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1003258), [Data](data.html)
+* Thornton, K. R., __A. J. Foran__, and A. D. Long (2013) Properties and modeling of GWAS when complex disease risk is due to non-complementing, deleterious mutations in genes of large effect.  PLoS Genetics __9__: e1003258. PMID 23437004, [Manuscript](http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1003258), [Data](data.html) [Code](https://github.com/ThorntonLab/TFL2013sim) (Note: this code link is for archival purposes and there is a better version of this simulation distributed with [fwdpp](http://molpopgen.github.io/fwdpp).)
 
 * Hu, T., M. B. Eisen, K. R. Thornton, and P. Andolfatto (2013) A second generation assembly of the _Drosophila simulans_ genome provides new insights into patterns of lineage-specific divergence.  Genome Research __23__: 89-98. PMID 22936249, [Manuscript](http://genome.cshlp.org/content/23/1/89.abstract)
 
