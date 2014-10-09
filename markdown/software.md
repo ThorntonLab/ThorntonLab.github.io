@@ -1,5 +1,12 @@
 ##Software from the Thornton lab
 
+###GitHub accounts
+
+The list below is mostly related to code resulting from publications.  There is a lot of other code available from GitHub accounts associated with lab members:
+
+* [Kevin Thornton](https://github.com/molpopgen)
+* [Thornton Lab](https://github.com/ThorntonLab)
+
 ###C++ software libraries
 
 * [libsequence](https://github.com/molpopgen/libsequence) is a C++ software library for evolutionary genetic analysis.  The citation for this work is a [paper from 2003](http://bioinformatics.oxfordjournals.org/content/19/17/2325.short)
