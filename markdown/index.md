@@ -4,5 +4,5 @@ Welcome to the Thornton lab in the Department of [Ecology and Evolutionary Biolo
 
 <br>
 
-<a href="http://www.uci.edu"><img src="images/seal-blue.png" style="width: 300px;"></a>
+<a href="http://www.bio.uci.edu"><img src="images/seal-blue.png" style="width: 300px;"></a>
 <a href="http://ccbs.uci.edu"><img src="images/CCBS_Glow_Balls_1110_Felix.png" style="width: 300px;"></a>
