@@ -9,7 +9,7 @@ The list below is mostly related to code resulting from publications.  There is 
 
 ###C++ software libraries
 
-* [libsequence](https://github.com/molpopgen/libsequence) is a C++ software library for evolutionary genetic analysis.  The citation for this work is a [paper from 2003](http://bioinformatics.oxfordjournals.org/content/19/17/2325.short)
+* [libsequence](https://molpopgen.github.io/libsequence) is a C++ software library for evolutionary genetic analysis.  The citation for this work is a [paper from 2003](http://bioinformatics.oxfordjournals.org/content/19/17/2325.short)
 
 * [fwdpp](http://molpopgen.github.io/fwdpp) is a C++ template library for developing forward-time simulations under population- and quantitative- genetic models.  I published a description of the library in [Genetics](http://www.genetics.org/content/198/1/157.abstract).
 

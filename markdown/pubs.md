@@ -83,7 +83,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 * Wang, W., K. Thornton, J.J. Emerson, and M. Long (2004) Nucleotide variation and recombination along the fourth chromosome in _Drosophila simulans_. Genetics __166__: 1783-1794
 
 ###2003
-* Thornton, K. (2003) libsequence, a C++ class library for evolutionary genetic analysis. Bioinformatics __19__(17): 2325-2327  PMID 14630667 [Manuscript](http://bioinformatics.oxfordjournals.org/content/19/17/2325.short), [Software](https://github.com/molpopgen/libsequence)
+* Thornton, K. (2003) libsequence, a C++ class library for evolutionary genetic analysis. Bioinformatics __19__(17): 2325-2327  PMID 14630667 [Manuscript](http://bioinformatics.oxfordjournals.org/content/19/17/2325.short), [Software](https://molpopgen.github.io/libsequence)
 
 * Long, M., E. Betran, K. Thornton, and W. Wang. (2003) Origin of new genes: Glimpses from the young and old. Nature Reviews Genetics __4__: 865-875
 
