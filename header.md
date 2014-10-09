@@ -5,4 +5,4 @@
 <a href="http://mbe.oxfordjournals.org/content/30/10/2311.full">
 <img src="images/F4.large.jpg" style="width: 300px;" height="300px"></a>
 
-####[Home](index.html) || [Publications](pubs.html) || [Research](research.html) || [People](people.html) || [News](news.html) || [Software](software.html) || [Data](data.html) || Resources(res.html)
+####[Home](index.html) || [Publications](pubs.html) || [Research](research.html) || [People](people.html) || [News](news.html) || [Software](software.html) || [Data](data.html) || [Resources](res.html)
