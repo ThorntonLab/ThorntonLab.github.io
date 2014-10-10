@@ -31,16 +31,18 @@ do
     pandoc -S -s -c ../pandoc.css -H ../header.html -o ../$n.html $i
 done
 
-cd ..
+#cd ..
 
 
-#cd ../blogs
+cd ../blog
 
-#for i in *.md; 
-#do
-#	pandoc -S -s -c ../pandoc.css -H ../header.html -o ./${i//md/html} $i	
-#	git add ./${i//md/html}
-#done
+for i in *.md; 
+do
+    echo "processing $i"
+    n=`basename $i .md`
+    pandoc -S -s -c ../pandoc.css -H ../header.html -o ./$n.html $i	
+    #git add ./${i//md/html}
+done
 
 #git commit -am "update"; 
 #git push
