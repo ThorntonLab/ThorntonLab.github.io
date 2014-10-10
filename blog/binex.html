@@ -6,25 +6,6 @@
   <meta name="generator" content="pandoc" />
   <title></title>
   <style type="text/css">code{white-space: pre;}</style>
-  <style type="text/css">
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { color: #007020; font-weight: bold; }
-code > span.dt { color: #902000; }
-code > span.dv { color: #40a070; }
-code > span.bn { color: #40a070; }
-code > span.fl { color: #40a070; }
-code > span.ch { color: #4070a0; }
-code > span.st { color: #4070a0; }
-code > span.co { color: #60a0b0; font-style: italic; }
-code > span.ot { color: #007020; }
-code > span.al { color: #ff0000; font-weight: bold; }
-code > span.fu { color: #06287e; }
-code > span.er { color: #ff0000; font-weight: bold; }
-  </style>
   <link rel="stylesheet" href="../pandoc.css" type="text/css" />
   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml">
@@ -61,45 +42,10 @@ positions: 0.3203 0.3704 0.6564 0.8152 0.8722
 01100
 01100
 01110</code></pre>
-<p>Each record starts with the two slashes and then is followed by a line telling you how many “segregating sites” (polymorphisms) there are, then the mutation positions, and then one line per haplotype. For each haplotype, 0 is the ancestral state, and 1 is the derived.</p>
-<p>The goal is to have a standalone program that reads in these data from stdin and writes them to a binary-format file. Further, we will compress the binary-format file uzing the <a href="http://zlib.net">zlib</a> library.</p>
-<p>For simplicity, we won’t cover how to read in those data from stdin, as it is fairly trivial. We’ll focus instead on the mechanics of writing to binary in C++.</p>
-<h2 id="background-converting-a-single-data-type-to-binary">Background: converting a single data type to binary</h2>
-<p>The ingredients that you need are:</p>
-<ol style="list-style-type: decimal">
-<li>An output stream that supports a member function called write for “manually” writing blocks of data. See <a href="http://www.cplusplus.com/reference/ostream/ostream/">std::ostream</a> for an example.</li>
-<li>The data to write. This could be a double, int, vector of something, etc.</li>
-</ol>
-<p>To write an object of type double in binary format to a buffer:</p>
-<pre class="sourceCode cpp"><code class="sourceCode cpp"><span class="ot">#include &lt;fstream&gt; </span><span class="co">//header for file I/O</span>
-
-<span class="co">//Open a file called out.bin for binary writing</span>
-std::ofstream outfile(<span class="st">&quot;out.bin&quot;</span>, std::ios_base::out | std::ios_base::binary);
-
-<span class="co">//declare some data</span>
-<span class="dt">double</span> x = <span class="fl">1.0</span>;
-outfile.write( <span class="kw">reinterpret_cast</span>&lt;<span class="dt">char</span>*&gt;(&amp;x), <span class="kw">sizeof</span>(<span class="dt">double</span>) );</code></pre>
-<p>In words, conversion to binary works by writing the data to character buffer. The conversion works via a pointer to the data (&amp;x) and the sizeof(type) call tells us how big the data are.</p>
-<p>If you have data in a std::vector, then you may write the contents of vector to a file in one of two ways:</p>
-<ol style="list-style-type: decimal">
-<li>By directly accessing the vector’s internal buffer via the <a href="http://www.cplusplus.com/reference/vector/vector/data/">data</a> member function. This only works in c++11.</li>
-<li>By accessing the internal buffer via a pointer to the first element of the vector. This is the classic way suggested by Scott Meyers.</li>
-</ol>
-<p>These methods look like this: <sub>~</sub> {.cpp} #include <vector> #include <fstream></p>
-<p>using namespace std;</p>
-<p>int main(int argc, char **argv) { vector<double> x{1.,5.,10.};</p>
-<p>ofstream out(“out.bin”,ios_base::out|ios_base::binary);</p>
-<p>//C++11 version: out.write( reinterpret_cast<const char *>(x.data()),x.size()<em>sizeof(double) ); //“classic” version: out.write( reinterpret_cast<char *>(&amp;x[0]),x.size()</em>sizeof(double) ); } <sub>~</sub></p>
-<h2 id="converting-the-ms-data-to-a-binary-format">Converting the “ms” data to a binary format</h2>
-<p>The “ms” data shown above have the following structure:</p>
-<ol style="list-style-type: decimal">
-<li><span class="math"><em>S</em></span> positions, stored as floating-point values</li>
-<li><span class="math"><em>n</em></span> strings of length <span class="math"><em>S</em></span> each</li>
-</ol>
-<p>Let’s assume that we can store the data in the following C++ objects:</p>
-<pre class="sourceCode cpp"><code class="sourceCode cpp"><span class="co">//The positions</span>
-std::vector&lt;<span class="dt">double</span>&gt; positions;
-<span class="co">//The haplotypes</span>
-std::vector&lt;std::string&gt; haps;</code></pre>
+<p>You can find a standalone program to write such data to binary format <a href="">here</a> and another one using <a href="http://molpopgen.github.io/libsequence">libsequence</a> <a href="">here</a>. I suggest that the latter implementation is the preferred one. It is shorter, simpler, and takes advantages of code re-use via a library.</p>
+<p>To compile the standalone version:</p>
+<pre><code>c++ -std=c++11 -O2 -o ms2bin ms2bin.cc</code></pre>
+<p>To compile the libsequence version (after installing libsequence):</p>
+<pre><code>c++ -std=c++11 -O2 -o ms2binlseq ms2binlseq.cc -lsequence</code></pre>
 </body>
 </html>
