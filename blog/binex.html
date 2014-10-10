@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; }
+code > span.dt { color: #902000; }
+code > span.dv { color: #40a070; }
+code > span.bn { color: #40a070; }
+code > span.fl { color: #40a070; }
+code > span.ch { color: #4070a0; }
+code > span.st { color: #4070a0; }
+code > span.co { color: #60a0b0; font-style: italic; }
+code > span.ot { color: #007020; }
+code > span.al { color: #ff0000; font-weight: bold; }
+code > span.fu { color: #06287e; }
+code > span.er { color: #ff0000; font-weight: bold; }
+  </style>
+  <link rel="stylesheet" href="../pandoc.css" type="text/css" />
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="generator" content="pandoc" />
+    <title></title>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="pandoc.css" type="text/css" />
+  </head>
+  <body>
+  <p><a href="http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1003258"> <img src="images/journal.pgen.1003258.g001.png" style="width: 300px;"></a> <a href="http://mbe.oxfordjournals.org/content/31/7/1750.full"> <img src="F6.large.jpg" style="width: 300px;" height="300px"></a> <a href="http://mbe.oxfordjournals.org/content/30/10/2311.full"> <img src="images/F4.large.jpg" style="width: 300px;" height="300px"></a></p>
+  <h4 id="home-publications-research-people-news-software-data-resources-blog"><a href="index.html">Home</a> || <a href="pubs.html">Publications</a> || <a href="research.html">Research</a> || <a href="people.html">People</a> || <a href="news.html">News</a> || <a href="software.html">Software</a> || <a href="data.html">Data</a> || <a href="res.html">Resources</a> || <a href="blog.html">Blog</a></h4>
+  </body>
+  </html>
+</head>
+<body>
+<h1 id="concrete-example-of-binary-output">Concrete example of binary output</h1>
+<p>I’ve written a <a href="https://github.com/molpopgen/BigDataFormats">tutorial</a> of sorts on programming methods for so-called “big data”. That document is an overview of your options (gzip, binary, etc.) for people who want to move away from dealing with large, plain-text files. For most people, going from a plain-text file to a gzipped file is a big step, and you have to learn how your favorite programming language supports reading and writing such files.</p>
+<p>While gzipping your large files is a big space-saver, you can gain even more once you realize that your files need not be human-readable. Rather, you can write them in native binary format, and read them in the same way. This post covers a specific example of doing that, using the data format of Dick Hudson’s “<a href="http://home.uchicago.edu/~rhudson1/source/mksamples.html">ms</a>” as a concrete example.</p>
+<h2 id="the-data-format">The data format</h2>
+<p>In plain-text, the output of a typical ms run looks something like this:</p>
+<pre><code>//
+segsites: 5
+positions: 0.3203 0.3704 0.6564 0.8152 0.8722 
+01100
+01110
+01100
+10000
+01101
+00000
+10000
+01100
+01100
+01110</code></pre>
+<p>Each record starts with the two slashes and then is followed by a line telling you how many “segregating sites” (polymorphisms) there are, then the mutation positions, and then one line per haplotype. For each haplotype, 0 is the ancestral state, and 1 is the derived.</p>
+<p>Let’s write a program to read in the above data, and output it in a binary format. Our program will read in the records from the standard input stream (stdin) and write the output to a file.</p>
+<h2 id="step-1-reading-the-data.">Step 1: reading the data.</h2>
+<h3 id="using-libsequence">Using libsequence</h3>
+<p>This example will be completely standalone. In practice, however, it is more effective to make use of existing libraries, like <a href="https://molpopgen.github.io/libsequence">libsequence</a>. Reading in “ms” data using that library is trivial:</p>
+<pre class="sourceCode cpp"><code class="sourceCode cpp"><span class="ot">#include &lt;Sequence/SimData.hpp&gt;</span>
+<span class="ot">#include &lt;iostream&gt;</span>
+
+<span class="dt">int</span> main( <span class="dt">int</span> argc, <span class="dt">char</span> ** argv )
+{
+    Sequence::SimData d;
+    <span class="kw">while</span>(! std::cin.eof() )
+    {   
+        std::cin &gt;&gt; d &gt;&gt; std::ws;
+        <span class="co">//Now, we can do something interesting with d</span>
+    }     
+}</code></pre>
+<h3 id="a-standalone-function">A standalone function</h3>
+<p>This function will read in the data from stdin, and return the following:</p>
+<ol style="list-style-type: decimal">
+<li>A vector of the mutation positions</li>
+<li>A vector of strings containing the haplotypes</li>
+</ol>
+<pre class="sourceCode cpp"><code class="sourceCode cpp"><span class="ot">#include &lt;vector&gt;</span>
+<span class="ot">#include &lt;string&gt;</span>
+<span class="ot">#include &lt;iostream&gt;</span>
+<span class="ot">#include &lt;utility&gt;</span>
+
+std::pair&lt;std::vector&lt;<span class="dt">double</span>&gt;, std::vector&lt;std::string&gt; &gt;
+readMS( std::istream &amp; in )
+{
+  
+  std::string temp;
+  std::getline(in,temp); <span class="co">//read the &quot;//&quot;</span>
+  <span class="dt">unsigned</span> S;
+  in &gt;&gt; temp &gt;&gt; S;
+  <span class="co">//reads in the segsites line, through the positions: string</span>
+  <span class="kw">if</span>( !S ) <span class="kw">return</span> std::make_pair(std::vector&lt;<span class="dt">double</span>&gt;(), std::vector&lt;std::string&gt;());
+  in &gt;&gt; temp &gt;&gt; std::ws; 
+  std::vector&lt;<span class="dt">double</span>&gt; pos(S);
+  <span class="kw">for</span>( <span class="dt">unsigned</span> i = <span class="dv">0</span> ; i &lt; S ; ++i )
+    {
+      in &gt;&gt; pos[i] &gt;&gt; std::ws;
+    }
+  <span class="co">//Read in the haplotypes until the next // and the stream is still ok</span>
+  std::vector&lt;std::string&gt; haps;
+  <span class="kw">while</span>( in.peek() != &#39;/&#39; &amp;&amp; !in.eof() &amp;&amp; !in.fail() ) {
+    in &gt;&gt; std::ws;
+    getline(in,temp);
+    in &gt;&gt; std::ws;
+    haps.emplace_back(temp);
+  } 
+
+  <span class="kw">return</span> std::make_pair(pos,haps);
+}</code></pre>
+<h3 id="converting-the-output-to-binary">Converting the output to binary</h3>
+<pre class="sourceCode cpp"><code class="sourceCode cpp"><span class="dt">void</span> writeMSbin( std::ostream &amp; o,
+         <span class="dt">const</span> std::pair&lt;std::vector&lt;<span class="dt">double</span>&gt;, std::vector&lt;std::string&gt; &gt; &amp; msdata )
+{
+  <span class="co">//Typedefs for sanity</span>
+  <span class="kw">using</span> UINT = std::<span class="dt">uint32_t</span>;
+
+  <span class="co">//Step 1: write out the number of mutations and the sample size</span>
+  UINT S = msdata.first.size(),
+    nsam = msdata.second.size();
+  o.write( <span class="kw">reinterpret_cast</span>&lt;<span class="dt">char</span> *&gt;(&amp;S),<span class="kw">sizeof</span>(UINT) );
+  o.write( <span class="kw">reinterpret_cast</span>&lt;<span class="dt">char</span> *&gt;(&amp;nsam),<span class="kw">sizeof</span>(UINT) );
+
+  <span class="co">//Write the mutation positions</span>
+  o.write( <span class="kw">reinterpret_cast</span>&lt;<span class="dt">const</span> <span class="dt">char</span> *&gt;(&amp;msdata.first[<span class="dv">0</span>]),S*<span class="kw">sizeof</span>(<span class="dt">double</span>) );
+
+  <span class="co">//Step 2: write out the positions of each of those &#39;1&#39;s</span>
+  <span class="kw">for</span>( <span class="dt">auto</span> h : msdata.second )
+    {
+      UINT nones = std::count(h.begin(),h.end(),&#39;<span class="dv">1</span>&#39;);
+      o.write( <span class="kw">reinterpret_cast</span>&lt;<span class="dt">char</span>*&gt;(&amp;nones),<span class="kw">sizeof</span>(UINT) );
+      <span class="co">//find all the 1s in this string</span>
+      <span class="dt">auto</span> one = h.find(&#39;<span class="dv">1</span>&#39;);
+      <span class="kw">while</span>( one != std::string::npos ) {
+    <span class="co">//enter position of the derived mutation</span>
+    o.write( <span class="kw">reinterpret_cast</span>&lt;<span class="dt">char</span>*&gt;(&amp;one),<span class="kw">sizeof</span>(UINT) );
+    <span class="co">//search again starting at next place in string</span>
+    one = h.find(&#39;<span class="dv">1</span>&#39;,one<span class="dv">+1</span>);
+      }
+    }
+}</code></pre>
+</body>
+</html>
