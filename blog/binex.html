@@ -62,90 +62,44 @@ positions: 0.3203 0.3704 0.6564 0.8152 0.8722
 01100
 01110</code></pre>
 <p>Each record starts with the two slashes and then is followed by a line telling you how many “segregating sites” (polymorphisms) there are, then the mutation positions, and then one line per haplotype. For each haplotype, 0 is the ancestral state, and 1 is the derived.</p>
-<p>Let’s write a program to read in the above data, and output it in a binary format. Our program will read in the records from the standard input stream (stdin) and write the output to a file.</p>
-<h2 id="step-1-reading-the-data.">Step 1: reading the data.</h2>
-<h3 id="using-libsequence">Using libsequence</h3>
-<p>This example will be completely standalone. In practice, however, it is more effective to make use of existing libraries, like <a href="https://molpopgen.github.io/libsequence">libsequence</a>. Reading in “ms” data using that library is trivial:</p>
-<pre class="sourceCode cpp"><code class="sourceCode cpp"><span class="ot">#include &lt;Sequence/SimData.hpp&gt;</span>
-<span class="ot">#include &lt;iostream&gt;</span>
-
-<span class="dt">int</span> main( <span class="dt">int</span> argc, <span class="dt">char</span> ** argv )
-{
-    Sequence::SimData d;
-    <span class="kw">while</span>(! std::cin.eof() )
-    {   
-        std::cin &gt;&gt; d &gt;&gt; std::ws;
-        <span class="co">//Now, we can do something interesting with d</span>
-    }     
-}</code></pre>
-<h3 id="a-standalone-function">A standalone function</h3>
-<p>This function will read in the data from stdin, and return the following:</p>
+<p>The goal is to have a standalone program that reads in these data from stdin and writes them to a binary-format file. Further, we will compress the binary-format file uzing the <a href="http://zlib.net">zlib</a> library.</p>
+<p>For simplicity, we won’t cover how to read in those data from stdin, as it is fairly trivial. We’ll focus instead on the mechanics of writing to binary in C++.</p>
+<h2 id="background-converting-a-single-data-type-to-binary">Background: converting a single data type to binary</h2>
+<p>The ingredients that you need are:</p>
 <ol style="list-style-type: decimal">
-<li>A vector of the mutation positions</li>
-<li>A vector of strings containing the haplotypes</li>
+<li>An output stream that supports a member function called write for “manually” writing blocks of data. See <a href="http://www.cplusplus.com/reference/ostream/ostream/">std::ostream</a> for an example.</li>
+<li>The data to write. This could be a double, int, vector of something, etc.</li>
 </ol>
-<pre class="sourceCode cpp"><code class="sourceCode cpp"><span class="ot">#include &lt;vector&gt;</span>
-<span class="ot">#include &lt;string&gt;</span>
-<span class="ot">#include &lt;iostream&gt;</span>
-<span class="ot">#include &lt;utility&gt;</span>
+<p>To write an object of type double in binary format to a buffer:</p>
+<pre class="sourceCode cpp"><code class="sourceCode cpp"><span class="ot">#include &lt;fstream&gt; </span><span class="co">//header for file I/O</span>
 
-std::pair&lt;std::vector&lt;<span class="dt">double</span>&gt;, std::vector&lt;std::string&gt; &gt;
-readMS( std::istream &amp; in )
-{
-  
-  std::string temp;
-  std::getline(in,temp); <span class="co">//read the &quot;//&quot;</span>
-  <span class="dt">unsigned</span> S;
-  in &gt;&gt; temp &gt;&gt; S;
-  <span class="co">//reads in the segsites line, through the positions: string</span>
-  <span class="kw">if</span>( !S ) <span class="kw">return</span> std::make_pair(std::vector&lt;<span class="dt">double</span>&gt;(), std::vector&lt;std::string&gt;());
-  in &gt;&gt; temp &gt;&gt; std::ws; 
-  std::vector&lt;<span class="dt">double</span>&gt; pos(S);
-  <span class="kw">for</span>( <span class="dt">unsigned</span> i = <span class="dv">0</span> ; i &lt; S ; ++i )
-    {
-      in &gt;&gt; pos[i] &gt;&gt; std::ws;
-    }
-  <span class="co">//Read in the haplotypes until the next // and the stream is still ok</span>
-  std::vector&lt;std::string&gt; haps;
-  <span class="kw">while</span>( in.peek() != &#39;/&#39; &amp;&amp; !in.eof() &amp;&amp; !in.fail() ) {
-    in &gt;&gt; std::ws;
-    getline(in,temp);
-    in &gt;&gt; std::ws;
-    haps.emplace_back(temp);
-  } 
+<span class="co">//Open a file called out.bin for binary writing</span>
+std::ofstream outfile(<span class="st">&quot;out.bin&quot;</span>, std::ios_base::out | std::ios_base::binary);
 
-  <span class="kw">return</span> std::make_pair(pos,haps);
-}</code></pre>
-<h3 id="converting-the-output-to-binary">Converting the output to binary</h3>
-<pre class="sourceCode cpp"><code class="sourceCode cpp"><span class="dt">void</span> writeMSbin( std::ostream &amp; o,
-         <span class="dt">const</span> std::pair&lt;std::vector&lt;<span class="dt">double</span>&gt;, std::vector&lt;std::string&gt; &gt; &amp; msdata )
-{
-  <span class="co">//Typedefs for sanity</span>
-  <span class="kw">using</span> UINT = std::<span class="dt">uint32_t</span>;
-
-  <span class="co">//Step 1: write out the number of mutations and the sample size</span>
-  UINT S = msdata.first.size(),
-    nsam = msdata.second.size();
-  o.write( <span class="kw">reinterpret_cast</span>&lt;<span class="dt">char</span> *&gt;(&amp;S),<span class="kw">sizeof</span>(UINT) );
-  o.write( <span class="kw">reinterpret_cast</span>&lt;<span class="dt">char</span> *&gt;(&amp;nsam),<span class="kw">sizeof</span>(UINT) );
-
-  <span class="co">//Write the mutation positions</span>
-  o.write( <span class="kw">reinterpret_cast</span>&lt;<span class="dt">const</span> <span class="dt">char</span> *&gt;(&amp;msdata.first[<span class="dv">0</span>]),S*<span class="kw">sizeof</span>(<span class="dt">double</span>) );
-
-  <span class="co">//Step 2: write out the positions of each of those &#39;1&#39;s</span>
-  <span class="kw">for</span>( <span class="dt">auto</span> h : msdata.second )
-    {
-      UINT nones = std::count(h.begin(),h.end(),&#39;<span class="dv">1</span>&#39;);
-      o.write( <span class="kw">reinterpret_cast</span>&lt;<span class="dt">char</span>*&gt;(&amp;nones),<span class="kw">sizeof</span>(UINT) );
-      <span class="co">//find all the 1s in this string</span>
-      <span class="dt">auto</span> one = h.find(&#39;<span class="dv">1</span>&#39;);
-      <span class="kw">while</span>( one != std::string::npos ) {
-    <span class="co">//enter position of the derived mutation</span>
-    o.write( <span class="kw">reinterpret_cast</span>&lt;<span class="dt">char</span>*&gt;(&amp;one),<span class="kw">sizeof</span>(UINT) );
-    <span class="co">//search again starting at next place in string</span>
-    one = h.find(&#39;<span class="dv">1</span>&#39;,one<span class="dv">+1</span>);
-      }
-    }
-}</code></pre>
+<span class="co">//declare some data</span>
+<span class="dt">double</span> x = <span class="fl">1.0</span>;
+outfile.write( <span class="kw">reinterpret_cast</span>&lt;<span class="dt">char</span>*&gt;(&amp;x), <span class="kw">sizeof</span>(<span class="dt">double</span>) );</code></pre>
+<p>In words, conversion to binary works by writing the data to character buffer. The conversion works via a pointer to the data (&amp;x) and the sizeof(type) call tells us how big the data are.</p>
+<p>If you have data in a std::vector, then you may write the contents of vector to a file in one of two ways:</p>
+<ol style="list-style-type: decimal">
+<li>By directly accessing the vector’s internal buffer via the <a href="http://www.cplusplus.com/reference/vector/vector/data/">data</a> member function. This only works in c++11.</li>
+<li>By accessing the internal buffer via a pointer to the first element of the vector. This is the classic way suggested by Scott Meyers.</li>
+</ol>
+<p>These methods look like this: <sub>~</sub> {.cpp} #include <vector> #include <fstream></p>
+<p>using namespace std;</p>
+<p>int main(int argc, char **argv) { vector<double> x{1.,5.,10.};</p>
+<p>ofstream out(“out.bin”,ios_base::out|ios_base::binary);</p>
+<p>//C++11 version: out.write( reinterpret_cast<const char *>(x.data()),x.size()<em>sizeof(double) ); //“classic” version: out.write( reinterpret_cast<char *>(&amp;x[0]),x.size()</em>sizeof(double) ); } <sub>~</sub></p>
+<h2 id="converting-the-ms-data-to-a-binary-format">Converting the “ms” data to a binary format</h2>
+<p>The “ms” data shown above have the following structure:</p>
+<ol style="list-style-type: decimal">
+<li><span class="math"><em>S</em></span> positions, stored as floating-point values</li>
+<li><span class="math"><em>n</em></span> strings of length <span class="math"><em>S</em></span> each</li>
+</ol>
+<p>Let’s assume that we can store the data in the following C++ objects:</p>
+<pre class="sourceCode cpp"><code class="sourceCode cpp"><span class="co">//The positions</span>
+std::vector&lt;<span class="dt">double</span>&gt; positions;
+<span class="co">//The haplotypes</span>
+std::vector&lt;std::string&gt; haps;</code></pre>
 </body>
 </html>
