@@ -44,5 +44,15 @@ do
     #git add ./${i//md/html}
 done
 
+cd ../coding
+
+for i in *.md; 
+do
+    echo "processing $i"
+    n=`basename $i .md`
+    pandoc -S -s -c ../pandoc.css -H ../header.html -o ./$n.html $i	
+    #git add ./${i//md/html}
+done
+
 #git commit -am "update"; 
 #git push
