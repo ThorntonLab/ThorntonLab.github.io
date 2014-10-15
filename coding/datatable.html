@@ -24,16 +24,14 @@
   </html>
 </head>
 <body>
-<h2 id="programming-methods-and-techniques">Programming methods and techniques</h2>
-<p>This page is a lab wiki/notebook for various coding methods</p>
-<h3 id="r">R</h3>
-<ul>
-<li><a href="coding/datatable.html">data.table</a></li>
-</ul>
-<h3 id="binary-data-files">Binary data files</h3>
-<ul>
-<li><a href="coding/ms2bin.html">Example</a> of converting “<a href="http://home.uchicago.edu/~rhusdon1/source/mksamples.html">ms</a>” output to a gzipped/binary format.</li>
-<li><a href="coding/readmsbin.html">Reading</a> binary data using R.</li>
-</ul>
+<h1 id="rs-data.table-package">R’s data.table package</h1>
+<p>Never use read.table again! data.table’s fread function is much faster, and you’ll appreciate it for large files.</p>
+<p>Get the package <a href="http://cran.r-project.org/web/packages/data.table/index.html">here</a> or use install.packages on your system.</p>
+<p>Basic usage:</p>
+<p>~<sub>~</sub> {r} library(data.table)</p>
+<p>x=fread(“filename”) <sub><sub><sub>~</sub></sub></sub></p>
+<p>To read a gzip-compressed text file:</p>
+<p>~<sub>~</sub> {r} library(data.table)</p>
+<p>x=fread(“gunzip -c filename.gz”) ~<sub><sub><sub>~</sub></sub></sub></p>
 </body>
 </html>
