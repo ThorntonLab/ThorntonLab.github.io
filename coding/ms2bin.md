@@ -1,6 +1,6 @@
 #Example: writing data in a binary format
 
-I recently wrote a [tutorial](https://github.com/molpopgen/BigDataFormats) on computational techniques for "big data".  It covers moving beyond large ASCII files to gzip and/or binary format.  For this post, I cover a concrete example of re-writing data data into a gzipped binary format.
+I recently wrote a [tutorial](https://github.com/molpopgen/BigDataFormats) on computational techniques for "big data".  It covers moving beyond large ASCII files to gzip and/or binary format.  For this post, I cover a concrete example of re-writing data into a gzipped binary format.
 
 ##The data
 The input data are the output of Hudson's [ms](http://http://home.uchicago.edu/~rhudson1/source/mksamples.html), a widely-used coalescent simulation program.
