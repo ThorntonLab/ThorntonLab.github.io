@@ -5,4 +5,4 @@
 <a href="http://mbe.oxfordjournals.org/content/30/10/2311.full">
 <img src="http://www.molpopgen.org/images/F4.large.jpg" style="width: 300px;" height="300px"></a>
 
-####[Home](index.html) || [Publications](http://www.molpopgen/pubs.html) || [Research](http://www.molpopgen/research.html) || [People](http://www.molpopgen/people.html) || [News](http://www.molpopgen/news.html) || [Software](http://www.molpopgen/software.html) || [Data](http://www.molpopgen/data.html) || [Resources](http://www.molpopgen/res.html) || [Blog](http://www.molpopgen/blog.html)
+####[Home](index.html) || [Publications](http://www.molpopgen.org/pubs.html) || [Research](http://www.molpopgen.org/research.html) || [People](http://www.molpopgen.org/people.html) || [News](http://www.molpopgen.org/news.html) || [Software](http://www.molpopgen.org/software.html) || [Data](http://www.molpopgen.org/data.html) || [Resources](http://www.molpopgen.org/res.html) || [Blog](http://www.molpopgen.org/blog.html)
