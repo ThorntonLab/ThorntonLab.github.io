@@ -40,7 +40,7 @@ Below, I show you two programs that convert the ms data into the more compact fo
 
 Most (all?) programming languages have some method for binary I/O.  In C, you can use the low-level functions __write__ or __fwrite__.  You can find an example using __fwrite__ [here](http://www.cprogramming.com/tutorial/cfileio.html) and examples using fwrite in the examples folder of my [tutorial](https://github.com/molpopgen/BigDataFormats).
 
-In C++, you a buffer to a stream using the member function [write](http://www.cplusplus.com/reference/ostream/ostream/write/).  Again, you can find examples in mu [tutorial](https://git\
+In C++, you a buffer to a stream using the member function [write](http://www.cplusplus.com/reference/ostream/ostream/write/).  Again, you can find examples in my [tutorial](https://git\
 hub.com/molpopgen/BigDataFormats) repo.
 
 ##Specifics for this example.
