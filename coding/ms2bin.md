@@ -99,4 +99,4 @@ krthornt$ ls -lhrt msout.txt.gz msout*.bin.gz
 
 These space savings are modest, but they get much larger when you simulate more and larger replicates.  We could make the binary files smaller by using integers with fewer than 32 bits.  However, that would limit the size of the data blocks that we could write quite a bit.
 
-Next, we'll cover how to read these .bin.gz file back into a C++ program and into R.
+[Next](readmsbin.html), we'll cover how to read these .bin.gz file back into a C++ program and into R.
