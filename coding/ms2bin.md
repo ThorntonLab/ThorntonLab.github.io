@@ -39,3 +39,9 @@ The first two numbers are the number of mutations and sample size, respectively.
 This is how to convert such data using routines already present in [libsequence](http://molpopgen.github.io/libsequence):
 
 <script src="https://gist.github.com/molpopgen/419aab1b84241ec61b61.js"></script>
+
+##A standalone version
+
+We can, of course, write a program to do the conversion that only depends on the [zlib](http://zlib.net) library.  It is much longer, though, and the functions are not as reusable unless we copy/paste the code around.  However, this example shows us the mechanics of binary writing to streams in C++:
+
+<script src="https://gist.github.com/molpopgen/ae23fa55e6bccfb33c60.js"></script>

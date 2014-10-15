@@ -50,5 +50,9 @@ positions: 0.1145 0.4935 0.6554 0.8684 0.9145
 <h2 id="using-libsequence">Using libsequence</h2>
 <p>This is how to convert such data using routines already present in <a href="http://molpopgen.github.io/libsequence">libsequence</a>:</p>
 <script src="https://gist.github.com/molpopgen/419aab1b84241ec61b61.js"></script>
+
+<h2 id="a-standalone-version">A standalone version</h2>
+<p>We can, of course, write a program to do the conversion that only depends on the <a href="http://zlib.net">zlib</a> library. It is much longer, though, and the functions are not as reusable unless we copy/paste the code around. However, this example shows us the mechanics of binary writing to streams in C++:</p>
+<script src="https://gist.github.com/molpopgen/ae23fa55e6bccfb33c60.js"></script>
 </body>
 </html>
