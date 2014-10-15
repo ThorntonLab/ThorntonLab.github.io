@@ -32,7 +32,7 @@ We can write this data in a more compact format like this:
 1 1
 ```
 
-The first two numbers are the number of mutations and sample size, respectively.  These are unsigned integers.  There are then 5 floating-point values representing mutation positions.  Finally, there are 5 lines, one per haplotype.  Each haplotype line contains the number of derived mutations on that haplotype, followed by the indexes (numbers from 0 to 4, the total number of mutations) where each derived mutation is found.
+The first two numbers are the sample size and the number of mutations, respectively.  These are unsigned integers.  There are then 5 floating-point values representing mutation positions.  Finally, there are 5 lines, one per haplotype.  Each haplotype line contains the number of derived mutations on that haplotype, followed by the indexes (numbers from 0 to 4, the total number of mutations) where each derived mutation is found.
 
 Below, I show you two programs that convert the ms data into the more compact format, which is written in native binary format to a gzip-compressed file.  The compression is done using the [zlib](http://zlib.net) library, which is a C-language library present on virtually every Unix machine.
 

@@ -46,7 +46,7 @@ positions: 0.1145 0.4935 0.6554 0.8684 0.9145
 3 2 3 4
 3 2 3 4
 1 1</code></pre>
-<p>The first two numbers are the number of mutations and sample size, respectively. These are unsigned integers. There are then 5 floating-point values representing mutation positions. Finally, there are 5 lines, one per haplotype. Each haplotype line contains the number of derived mutations on that haplotype, followed by the indexes (numbers from 0 to 4, the total number of mutations) where each derived mutation is found.</p>
+<p>The first two numbers are the sample size and the number of mutations, respectively. These are unsigned integers. There are then 5 floating-point values representing mutation positions. Finally, there are 5 lines, one per haplotype. Each haplotype line contains the number of derived mutations on that haplotype, followed by the indexes (numbers from 0 to 4, the total number of mutations) where each derived mutation is found.</p>
 <p>Below, I show you two programs that convert the ms data into the more compact format, which is written in native binary format to a gzip-compressed file. The compression is done using the <a href="http://zlib.net">zlib</a> library, which is a C-language library present on virtually every Unix machine.</p>
 <h2 id="the-mechanics-of-writing-to-binary.">The mechanics of writing to binary.</h2>
 <p>Most (all?) programming languages have some method for binary I/O. In C, you can use the low-level functions <strong>write</strong> or <strong>fwrite</strong>. You can find an example using <strong>fwrite</strong> <a href="http://www.cprogramming.com/tutorial/cfileio.html">here</a> and examples using fwrite in the examples folder of my <a href="https://github.com/molpopgen/BigDataFormats">tutorial</a>.</p>
