@@ -6,6 +6,25 @@
   <meta name="generator" content="pandoc" />
   <title></title>
   <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; }
+code > span.dt { color: #902000; }
+code > span.dv { color: #40a070; }
+code > span.bn { color: #40a070; }
+code > span.fl { color: #40a070; }
+code > span.ch { color: #4070a0; }
+code > span.st { color: #4070a0; }
+code > span.co { color: #60a0b0; font-style: italic; }
+code > span.ot { color: #007020; }
+code > span.al { color: #ff0000; font-weight: bold; }
+code > span.fu { color: #06287e; }
+code > span.er { color: #ff0000; font-weight: bold; }
+  </style>
   <link rel="stylesheet" href="../pandoc.css" type="text/css" />
   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml">
@@ -28,10 +47,12 @@
 <p>Never use read.table again! data.table’s fread function is much faster, and you’ll appreciate it for large files.</p>
 <p>Get the package <a href="http://cran.r-project.org/web/packages/data.table/index.html">here</a> or use install.packages on your system.</p>
 <p>Basic usage:</p>
-<p>~<sub>~</sub> {r} library(data.table)</p>
-<p>x=fread(“filename”) <sub><sub><sub>~</sub></sub></sub></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(data.table)
+
+x=<span class="kw">fread</span>(<span class="st">&quot;filename&quot;</span>)</code></pre>
 <p>To read a gzip-compressed text file:</p>
-<p>~<sub>~</sub> {r} library(data.table)</p>
-<p>x=fread(“gunzip -c filename.gz”) ~<sub><sub><sub>~</sub></sub></sub></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(data.table)
+
+x=<span class="kw">fread</span>(<span class="st">&quot;gunzip -c filename.gz&quot;</span>)</code></pre>
 </body>
 </html>

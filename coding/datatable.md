@@ -6,16 +6,16 @@ Get the package [here](http://cran.r-project.org/web/packages/data.table/index.h
 
 Basic usage:
 
-~~~~ {r}
+``` {.r}
 library(data.table)
 
 x=fread("filename")
-~~~~~~~
+```
 
 To read a gzip-compressed text file:
 
-~~~~ {r}
+``` {.r}
 library(data.table)
 
 x=fread("gunzip -c filename.gz")
-~~~~~~~~
+```
