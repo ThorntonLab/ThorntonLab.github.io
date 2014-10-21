@@ -4,7 +4,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 ###2014
 
-* __Cridland, J. M.__, K. R. Thornton and A. D. Long (Accepted) Gene expression variation in _Drosophila melanogaster_ due to rare transposable element insertion alleles of large effect. Genetics.
+* __Cridland, J. M.__, K. R. Thornton and A. D. Long (Accepted) Gene expression variation in _Drosophila melanogaster_ due to rare transposable element insertion alleles of large effect. Genetics. [ABSTRACT](http://www.genetics.org/content/early/2014/10/20/genetics.114.170837.abstract)
 
 * __Rogers, R. L.__, __L. Shao__, __J. Sanjak__, P. Andolfatto and K. R. Thornton (Accepted) Sex-biased expression in the Drosophila melanogaster group.  G3: Genes, Genomes, Genetics. [Preprint online](http://g3journal.org/content/early/2014/10/01/g3.114.013532.abstract) [GFF files](https://github.com/ThorntonLab/GFF)
 
