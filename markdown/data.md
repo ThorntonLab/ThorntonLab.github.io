@@ -18,6 +18,8 @@ This page lists sequence data, alignments, etc., resulting from lab publications
 
 __NOTE__ (Nov. 17, 2014): the pipeline code linked to below is being re-implemented.  Please keep track of the [pecnv](https://github.com/molpopgen/pecnv) package, which will integrate our existing CNV-calling code from PE mapping with the TE calling pipeline.  The current "dev" branch of that repo re-implements the presence/absence part of the pipline in a more streamlined manner.  This code will eventually become release pecnv-0.1.4.
 
+__UPDATE__ Nov. 21, 2014): [pecnv](http://github.com/molpopgen/pecnv) version 0.1.4 is released, and replaces numbers 1 and 4 in the list below with a C++ reimplentation of the presence/absence calling software.
+
  1. [Pipeline code](https://github.com/ThorntonLab/Cridland2013pipeline) for calling TE presence/absence 
  2. [Pipeline code](https://github.com/ThorntonLab/Cridland2013AnnotPipeline) for annotating TE calls 
  3. [Regions of high IBD](https://github.com/ThorntonLab/DGRPmasked) in the DGRP lines 
