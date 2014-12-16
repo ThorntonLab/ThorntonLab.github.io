@@ -2,6 +2,7 @@
 
 ###December, 2014
 
+* Rogers _et al._'s [paper](http://g3journal.org/content/4/12/2345.abstract) on revised gene models in _Drosophila_ is officially out in G3.
 * New [paper](http://www.genetics.org/content/early/2014/10/20/genetics.114.170837.abstract) from Julie Cridland is accepted at Genetics and available as an epub ahead of print
 
 ###October, 2014
