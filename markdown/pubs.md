@@ -8,7 +8,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 * __Rogers, R. L.__, __L. Shao__, __J. Sanjak__, P. Andolfatto and K. R. Thornton (2014) Sex-biased expression in the Drosophila melanogaster group.  G3: Genes, Genomes, Genetics. __4__: 2345-2351 [ABSTRACT](http://www.g3journal.org/content/4/12/2345.abstract) [GFF files](https://github.com/ThorntonLab/GFF)
 
-* Thornton, K. R. (2014) A C++ template library for efficient forward-time population genetic simulation of large populations.  Genetics 98:157-166  PMID: 24950894, [Manuscript](http://www.genetics.org/content/198/1/157.abstract), [Software](https://github.com/molpopgen/fwdpp)
+* Thornton, K. R. (2014) A C++ template library for efficient forward-time population genetic simulation of large populations.  Genetics 98:157-166  PMID: 24950894, [Manuscript](http://www.genetics.org/content/198/1/157.abstract), [Software](http://molpopgen.github.io/fwdpp)
 
 * __Rogers, R. L.__, __J. M. Cridland__, __L. Shao__, T. T. Hu, P. Andolfatto and K. R. Thornton (2014) Landscape of standing variation for tandem duplications in _Drosophila yakuba_ and _Drosophila simulans_.  Molecular Biology and Evolution __31__: 1750-1766 PMID 24710518, [Manuscript](http://mbe.oxfordjournals.org/content/31/7/1750.abstract.html) [Data](rogers2014.html)
  
