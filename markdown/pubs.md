@@ -4,9 +4,9 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 ###2014
 
-* __Cridland, J. M.__, K. R. Thornton and A. D. Long (Accepted) Gene expression variation in _Drosophila melanogaster_ due to rare transposable element insertion alleles of large effect. Genetics. [ABSTRACT](http://www.genetics.org/content/early/2014/10/20/genetics.114.170837.abstract)
+* __Cridland, J. M.__, K. R. Thornton and A. D. Long (2014) Gene expression variation in _Drosophila melanogaster_ due to rare transposable element insertion alleles of large effect. Genetics __99__: 85-93. [ABSTRACT](http://www.genetics.org/content/199/1/85.abstract).  This article was chosen as an [issue highlight](http://www.genetics.org/content/199/1/NP.full).
 
-* __Rogers, R. L.__, __L. Shao__, __J. Sanjak__, P. Andolfatto and K. R. Thornton (Accepted) Sex-biased expression in the Drosophila melanogaster group.  G3: Genes, Genomes, Genetics. [Preprint online](http://g3journal.org/content/early/2014/10/01/g3.114.013532.abstract) [GFF files](https://github.com/ThorntonLab/GFF)
+* __Rogers, R. L.__, __L. Shao__, __J. Sanjak__, P. Andolfatto and K. R. Thornton (2014) Sex-biased expression in the Drosophila melanogaster group.  G3: Genes, Genomes, Genetics. __4__: 2345-2351 [ABSTRACT](http://www.g3journal.org/content/4/12/2345.abstract) [GFF files](https://github.com/ThorntonLab/GFF)
 
 * Thornton, K. R. (2014) A C++ template library for efficient forward-time population genetic simulation of large populations.  Genetics 98:157-166  PMID: 24950894, [Manuscript](http://www.genetics.org/content/198/1/157.abstract), [Software](https://github.com/molpopgen/fwdpp)
 
