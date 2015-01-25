@@ -2,9 +2,11 @@
 
 Names of Thornton lab members are in bold face. The names of students and postdocs from other labs are UCI labs are in italics
 
-###2014
+###2015
 
-* __Cridland, J. M.__, K. R. Thornton and A. D. Long (2014) Gene expression variation in _Drosophila melanogaster_ due to rare transposable element insertion alleles of large effect. Genetics __99__: 85-93. [ABSTRACT](http://www.genetics.org/content/199/1/85.abstract).  This article was chosen as an [issue highlight](http://www.genetics.org/content/199/1/NP.full).
+* __Cridland, J. M.__, K. R. Thornton and A. D. Long (2015) Gene expression variation in _Drosophila melanogaster_ due to rare transposable element insertion alleles of large effect. Genetics __199__: 85-93. [ABSTRACT](http://www.genetics.org/content/199/1/85.abstract).  This article was chosen as an [issue highlight](http://www.genetics.org/content/199/1/NP.full).
+
+###2014
 
 * __Rogers, R. L.__, __L. Shao__, __J. Sanjak__, P. Andolfatto and K. R. Thornton (2014) Sex-biased expression in the Drosophila melanogaster group.  G3: Genes, Genomes, Genetics. __4__: 2345-2351 [ABSTRACT](http://www.g3journal.org/content/4/12/2345.abstract) [GFF files](https://github.com/ThorntonLab/GFF)
 
