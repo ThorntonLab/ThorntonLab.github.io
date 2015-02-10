@@ -40,7 +40,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 ###2009
 
-* Gilad, Y., J. K. Pritchard, and K. Thornton (2009) Characterizing natural variation using next-generation sequencing technologies.  Trends in Genetics __25__: 463-471 [Manuscript]{http://www.cell.com/trends/genetics/abstract/S0168-9525(09)00176-0)
+* Gilad, Y., J. K. Pritchard, and K. Thornton (2009) Characterizing natural variation using next-generation sequencing technologies.  Trends in Genetics __25__: 463-471 [Manuscript](http://www.cell.com/trends/genetics/abstract/S0168-9525(09)00176-0)
 
 * K. R. Thornton (2009) Automating approximate Bayesian computation by local linear regression.  BMC Genetics __10__:35. PMID 19583871, [Manuscript](http://www.biomedcentral.com/1471-2156/10/35), [Software](https://github.com/molpopgen/ABCreg)
 
