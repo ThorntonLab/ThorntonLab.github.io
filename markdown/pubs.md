@@ -4,7 +4,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 ###2015
 
-* __Rogers, R.L__}, __J.M. Cridland__, L. Shao, T. Hu, P. Andolfatto, and {K. R. Thornton} (2015) Tandem Duplications and the Limits of Natural Selection in _Drosophila yakuba_ and _Drosophila simulans_.  PLoS One. DOI:10.1371/journal.pone.0132184
+* __Rogers, R.L__, __J.M. Cridland__, L. Shao, T. Hu, P. Andolfatto, and {K. R. Thornton} (2015) Tandem Duplications and the Limits of Natural Selection in _Drosophila yakuba_ and _Drosophila simulans_.  PLoS One. DOI:10.1371/journal.pone.0132184
 * __Cridland, J. M.__, K. R. Thornton and A. D. Long (2015) Gene expression variation in _Drosophila melanogaster_ due to rare transposable element insertion alleles of large effect. Genetics __199__: 85-93. [ABSTRACT](http://www.genetics.org/content/199/1/85.abstract).  This article was chosen as an [issue highlight](http://www.genetics.org/content/199/1/NP.full).
 
 ###2014
