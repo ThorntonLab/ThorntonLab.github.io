@@ -2,6 +2,10 @@
 
 This page lists sequence data, alignments, etc., resulting from lab publications.  A lot of our ouptut is software, which you can find at our [software](software.html) page.
 
+###20145
+
+* [VCF](http://devlaeminck.bio.uci.edu/Data/Rogers_et_al_vcf/) files from Rogers _et al._ Tandem Duplications and the Limits of Natural Selection in _Drosophila yakuba_ and _Drosophila simulans_. PLoS One
+
 ###2014
 
  * [GFF](https://github.com/ThorntonLab/GFF) files from Rogers _et al._ (accepted) Revised annotations, sex-biased expression, and lineage-specific genes in the _Drosophila melanogaster_ group [G3](http://www.g3journal.org/content/early/2014/10/01/g3.114.013532.full.pdf).  The accession numbers for the RNA-seq data are PRJNA196536, PRJNA193071, PRJNA257286, and PRJNA257287.
