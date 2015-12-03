@@ -18,5 +18,4 @@ Current projects in the lab include:
 
 The lab has active and ongoing collaborations with:
 
-* [Peter Andolfatto](http://genomics.princeton.edu/AndolfattoLab/Andolfatto_Lab.html), Princeton University 
 * [Tony Long](xhttp://wfitch.bio.uci.edu/~tdlong/), UC Irvine
