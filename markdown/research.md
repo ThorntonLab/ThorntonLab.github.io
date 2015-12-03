@@ -18,4 +18,5 @@ Current projects in the lab include:
 
 The lab has active and ongoing collaborations with:
 
-* [Tony Long](xhttp://wfitch.bio.uci.edu/~tdlong/), UC Irvine
+* [JJ Emerson](http://www.faculty.uci.edu/profile.cfm?faculty_id=5987), UC Irvine
+* [Tony Long](http://wfitch.bio.uci.edu/~tdlong/), UC Irvine
