@@ -2,6 +2,10 @@
 
 Names of Thornton lab members are in bold face. The names of students and postdocs from other labs are UCI labs are in italics
 
+###2016
+
+* __Sanjak, J.S.__, A.D. Long and K. R. Thornton (In press) Efficient Software for Multi-marker, Region-Based Analysis of GWAS Data.  G3: Genes, Genomes, Genetics. [ABSTRACT]9(ttp://www.g3journal.org/content/early/2016/02/08/g3.115.026013.abstract)
+
 ###2015
 
 * __Rogers, R.L__, __J.M. Cridland__, L. Shao, T. Hu, P. Andolfatto, and K. R. Thornton (2015) Tandem Duplications and the Limits of Natural Selection in _Drosophila yakuba_ and _Drosophila simulans_.  PLoS One. DOI:10.1371/journal.pone.0132184
