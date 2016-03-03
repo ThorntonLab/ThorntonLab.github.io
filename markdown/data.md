@@ -1,5 +1,7 @@
 ##Data
 
+__UPDATE__: due to security concerns, I've had to make the server where we've been serving up data non-public.  I'm in the process of unloading many of these data sets to Google Drive, and will update links accordingly.  In the mean time, send me (KRT) and email, and I'll prioritize getting what you need back online.
+
 This page lists sequence data, alignments, etc., resulting from lab publications.  A lot of our ouptut is software, which you can find at our [software](software.html) page.
 
 ###20145
@@ -16,7 +18,7 @@ This page lists sequence data, alignments, etc., resulting from lab publications
  
 ###2013
 
-* [Simulation code](https://github.com/ThorntonLab/TFL2013sim) and [output](http://devlaeminck.bio.uci.edu/Data/ThorntonForanLongPLoSGenetics) from Thornton, Foran, and Long (2013) Properties and Modeling of GWAS when Complex Disease Risk is due to non-complementing, deleterious mutations in genes of large effect. PLoS Genetics 9: e1003258.  __NOTE__: the code is out of date in this repo, and you are better off using the version that is in included with [fwdpp](https://github.com/molpopgen/fwdpp) as an example program. 
+* [Simulation code](https://github.com/ThorntonLab/TFL2013sim) and [output](https://drive.google.com/open?id=0Bxy-54SBqeekTlE4Qy1mWWpsYTQ) from Thornton, Foran, and Long (2013) Properties and Modeling of GWAS when Complex Disease Risk is due to non-complementing, deleterious mutations in genes of large effect. PLoS Genetics 9: e1003258.  
  
  * There are several resources from from Cridland, MacDonald, Long, and Thornton (2013) Abundance and Distribution of Transposable Elements in two Drosophila QTL Mapping Resources. Molecular Biology and Evolution. [Manuscript](http://mbe.oxfordjournals.org/content/30/10/2311.abstract).  These resource are: 
 
