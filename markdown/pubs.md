@@ -4,7 +4,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 ###2016
 
-* __Sanjak, J.S.__, A.D. Long and K. R. Thornton (In press) Efficient Software for Multi-marker, Region-Based Analysis of GWAS Data.  G3: Genes, Genomes, Genetics. [ABSTRACT]9(ttp://www.g3journal.org/content/early/2016/02/08/g3.115.026013.abstract)
+* __Sanjak, J.S.__, A.D. Long and K. R. Thornton (In press) Efficient Software for Multi-marker, Region-Based Analysis of GWAS Data.  G3: Genes, Genomes, Genetics. [ABSTRACT](http://www.g3journal.org/content/early/2016/02/08/g3.115.026013.abstract)
 
 ###2015
 
