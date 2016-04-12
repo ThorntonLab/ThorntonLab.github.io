@@ -6,7 +6,7 @@ This page lists sequence data, alignments, etc., resulting from lab publications
 
 ###20145
 
-* [VCF](http://devlaeminck.bio.uci.edu/Data/Rogers_et_al_vcf/) files from Rogers _et al._ Tandem Duplications and the Limits of Natural Selection in _Drosophila yakuba_ and _Drosophila simulans_. PLoS One
+* [VCF](https://drive.google.com/folderview?id=0Bxy-54SBqeekTWJOSlZIVk90djA) files from Rogers _et al._ Tandem Duplications and the Limits of Natural Selection in _Drosophila yakuba_ and _Drosophila simulans_. PLoS One
 
 ###2014
 
