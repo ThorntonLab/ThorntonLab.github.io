@@ -1,4 +1,4 @@
-#R's data.table package
+# R's data.table package
 
 Never use read.table again!  data.table's fread function is much faster, and you'll appreciate it for large files.
 

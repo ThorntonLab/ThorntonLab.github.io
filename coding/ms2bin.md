@@ -1,8 +1,8 @@
-#Example: writing data in a binary format
+# Example: writing data in a binary format
 
 I recently wrote a [tutorial](https://github.com/molpopgen/BigDataFormats) on computational techniques for "big data".  It covers moving beyond large ASCII files to gzip and/or binary format.  For this post, I cover a concrete example of re-writing data into a gzipped binary format.
 
-##The data
+## The data
 The input data are the output of Hudson's [ms](http://http://home.uchicago.edu/~rhudson1/source/mksamples.html), a widely-used coalescent simulation program.
 
 A typical "ms" output looks something like this:
@@ -36,7 +36,7 @@ The first two numbers are the sample size and the number of mutations, respectiv
 
 Below, I show you two programs that convert the ms data into the more compact format, which is written in native binary format to a gzip-compressed file.  The compression is done using the [zlib](http://zlib.net) library, which is a C-language library present on virtually every Unix machine.
 
-##The mechanics of writing to binary.
+## The mechanics of writing to binary.
 
 Most (all?) programming languages have some method for binary I/O.  In C, you can use the low-level functions __write__ or __fwrite__.  You can find an example using __fwrite__ [here](http://www.cprogramming.com/tutorial/cfileio.html) and examples using fwrite in the examples folder of my [tutorial](https://github.com/molpopgen/BigDataFormats).
 
@@ -45,23 +45,23 @@ hub.com/molpopgen/BigDataFormats) repo or study this example:
 
 <script src="https://gist.github.com/molpopgen/9123133.js"></script>
 
-##Specifics for this example.
+## Specifics for this example.
 
 For this example, all integers will be written as 32-bit unsigned integers type.  The specific type is the C++11 type __std::uint32_t__ in the header file [cstdint](http://www.cplusplus.com/reference/cstdint/).  We'll write the mutation positions as doubles, which are 64-bit on most systems.
 
-##Converting ms data using libsequence
+## Converting ms data using libsequence
 
 This is how to convert such data using routines already present in [libsequence](http://molpopgen.github.io/libsequence):
 
 <script src="https://gist.github.com/molpopgen/419aab1b84241ec61b61.js"></script>
 
-##A standalone version
+## A standalone version
 
 We can, of course, write a program to do the conversion that only depends on the [zlib](http://zlib.net) library.  It is much longer, though, and the functions are not as reusable unless we copy/paste the code around.  However, this example shows us the mechanics of binary writing to streams in C++:
 
 <script src="https://gist.github.com/molpopgen/ae23fa55e6bccfb33c60.js"></script>
 
-##Using each example
+## Using each example
 
 Let's make some output:
 
@@ -99,4 +99,4 @@ krthornt$ ls -lhrt msout.txt.gz msout*.bin.gz
 
 These space savings are modest, but they get much larger when you simulate more and larger replicates.  We could make the binary files smaller by using integers with fewer than 32 bits.  However, that would limit the size of the data blocks that we could write quite a bit.
 
-[Next](readmsbin.html), we'll cover how to read these .bin.gz file back into a C++ program and into R.
+[Next](readmsbin), we'll cover how to read these .bin.gz file back into a C++ program and into R.

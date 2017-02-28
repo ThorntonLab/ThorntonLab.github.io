@@ -1,6 +1,6 @@
-#Kevin Thornton's CV
+# Kevin Thornton's CV
 
-##Publications
+## Publications
 
 * [Complete list here](pubs.html)
 
@@ -8,7 +8,7 @@
 
 * [Google Scholar Profile](http://scholar.google.com/citations?user=xUvEtFMAAAAJ&hl=en&oi=ao)
 
-##Academic appointments
+## Academic appointments
 
 * Associate Professor, Department of Ecology and Evolutionary Biology, University of California, Irvine.  July 2012 - Present
 * Assistant Professor, Department of Ecology and Evolutionary Biology, University of California, Irvine.  January, 2007 - June 2012
@@ -16,7 +16,7 @@
 * GAANN training grant appointment (Evolutionary Genomics), U. Chicago Ecology and Evolution, 2002-2003
 * NIH training grant appointment (Genetics), U. Chicago Committee on Genetics, 1998-2002
 
-##Service
+## Service
 
 * Associate editor, [G3: Genes, Genomes, Genetics](http://www.g3journal.org)
 

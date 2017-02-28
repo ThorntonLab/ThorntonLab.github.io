@@ -2,10 +2,11 @@
 
 Welcome to the Thornton lab in the Department of [Ecology and Evolutionary Biology](http://ecoevo.bio.uci.edu) at the [University of California, Irvine](http://www.uci.edu).
 
-[People](markdown/people)
-[Research](markdown/research)
-[Publications](markdown/pubs)
-[Data](markdown/data)
+* [People](markdown/people)
+* [Research](markdown/research)
+* [Publications](markdown/pubs)
+* [Data](markdown/data)
+* [Resources](markdown/res)
 
 <br>
 
