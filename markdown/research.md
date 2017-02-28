@@ -1,10 +1,10 @@
-#Research
+# Research
 
 The Thornton lab does research in several areas of genomics, population genetics, and statistical genetics. In general, we are interested in using genomic data to understand how genomes evolve. Projects in my lab typically involve large data sets and/or extensive computer simulation. In either case, day-to-day work in the lab tends to emphasize using computational methods to understand something about genetics and evolution.
 
 The primary research organisms are fruit flies from various species related to _Drosophila melanogaster_. Recently I have expanded into modeling human association studies in light of explicit population-genetic models.
 
-Please see the [Publications](pubs.html) page for what the lab is up to.
+Please see the [Publications](pubs) page for what the lab is up to.
 
 If any of these projects sound interesting to you, please visit our page on joining the Thornton lab.
 
