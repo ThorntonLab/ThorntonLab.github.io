@@ -1,19 +1,21 @@
-##Software from the Thornton lab
+## Software from the Thornton lab
 
-###GitHub accounts
+### GitHub accounts
 
 The list below is mostly related to code resulting from publications.  There is a lot of other code available from GitHub accounts associated with lab members:
 
 * [Kevin Thornton](https://github.com/molpopgen)
 * [Thornton Lab](https://github.com/ThorntonLab)
 
-###C++ software libraries
+### C++ software libraries
 
 * [libsequence](https://molpopgen.github.io/libsequence) is a C++ software library for evolutionary genetic analysis.  The citation for this work is a [paper from 2003](http://bioinformatics.oxfordjournals.org/content/19/17/2325.short)
 
 * [fwdpp](http://molpopgen.github.io/fwdpp) is a C++ template library for developing forward-time simulations under population- and quantitative- genetic models.  I published a description of the library in [Genetics](http://www.genetics.org/content/198/1/157.abstract).
 
-###Simulation software
+### Simulation software
+
+* [fwdpy](http://github.com/molpopgen/fwdpy) is a powerful Python environment for forward-time simulation.  It uses [fwdpp](http://github.com/molpopgen/fwdpp) as its back-end.
 
 * [Code](https://github.com/molpopgen/newgene) for simulating a neutral coalescent process for copy-number variants that I used in [Thornton 2007](http://www.genetics.org/content/177/2/987.abstract)
 
@@ -29,7 +31,7 @@ The list below is mostly related to code resulting from publications.  There is 
 
 Some older tools (rhothetapost and msld) will arrive when I get time to update them and put them on github.  These tools should just be binned, as there are currently much better ways to do those tasks than my original attempts.
 
-###Tools for data analysis
+### Tools for data analysis
 
 * [analysis](https://github.com/molpopgen/analysis) programs for the (pre-NGS-era) analysis of population-genetic data.
 
