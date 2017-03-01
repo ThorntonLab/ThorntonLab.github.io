@@ -2,9 +2,13 @@
 
 Names of Thornton lab members are in bold face. The names of students and postdocs from other labs are UCI labs are in italics
 
+### 2017
+
+* __Sanjak, J.S.__, A.D. Long, and K.R. Thornton (2017). A Model of Compound Heterozygous, Loss-of-Function Alleles Is Broadly Consistent with Observations from Complex-Disease GWAS Datasets. PLoS Genetics 13 (1): e1006573. [Paper](http://dx.doi.org/10.1371/journal.pgen.1006573)
+
 ### 2016
 
-* __Sanjak, J.S.__, A.D. Long and K. R. Thornton (In press) Efficient Software for Multi-marker, Region-Based Analysis of GWAS Data.  G3: Genes, Genomes, Genetics. [ABSTRACT](http://www.g3journal.org/content/early/2016/02/08/g3.115.026013.abstract)
+* __Sanjak, J.S.__, A.D. Long and K. R. Thornton (2016) Efficient Software for Multi-marker, Region-Based Analysis of GWAS Data.  G3: Genes, Genomes, Genetics. [ABSTRACT](http://www.g3journal.org/content/early/2016/02/08/g3.115.026013.abstract) [DOI](DOI: 10.1534/g3.115.026013)
 
 ### 2015
 
