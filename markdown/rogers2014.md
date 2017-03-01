@@ -1,4 +1,4 @@
-##Data from Rogers _et al._ 2014 [Manuscript](http://mbe.oxfordjournals.org/content/31/7/1750.abstract)
+## Data from Rogers _et al._ 2014 [Manuscript](http://mbe.oxfordjournals.org/content/31/7/1750.abstract)
 
 1. The bam files that we generated are available from the NCBI Sequence Read Archive (SRA). The accession numbers for the Illumina data are SRP040290 and SRP029453. The PACbio data fall under SRP029453.
 2. [Scripts](https://github.com/ThorntonLab/getsimyak) to download the Illumina data from the UCI server

@@ -1,16 +1,16 @@
-#News from the Thornton Lab
+# News from the Thornton Lab 
 
-###February, 2015
+### February, 2015
 
 * Julie Cridlands's most recent [paper](http://www.genetics.org/content/199/1/85.abstract) in Genetics was chosen as an [issue highlight](http://www.genetics.org/content/199/1/NP.full).
 * Rebekah Rogers's more recent [paper](http://www.g3journal.org/content/4/12/2345.abstract) in G3 has been selected to appear in the upcoming 2014 "Spotlight" issue.
 
-###December, 2014
+### December, 2014
 
 * Rogers _et al._'s [paper](http://g3journal.org/content/4/12/2345.abstract) on revised gene models in _Drosophila_ is officially out in G3.
 * New [paper](http://www.genetics.org/content/early/2014/10/20/genetics.114.170837.abstract) from Julie Cridland is accepted at Genetics and available as an epub ahead of print
 
-###October, 2014
+### October, 2014
 
 * New [paper](http://www.g3journal.org/content/early/2014/10/01/g3.114.013532.abstract) accepted in [G3](http://www.g3journal.org) by Rebekah Rogers and Jaleal Sanjak.  This paper contains new gene models for many _Drosophila_ species, which are available [here](http://github.com/ThorntonLab/GFF)
 
