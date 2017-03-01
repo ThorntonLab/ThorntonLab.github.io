@@ -17,18 +17,10 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <p>Hi folks!</p>
-
-        <a href="md/other_stuff.html">Other stuff relative</a>
         <br>
 
-        <a href="http://molpopgen.github.io/test/md/other_stuff.html">Other stuff explicit</a>
+        <a href="http://molpopgen.org/markdown/people.html">People</a>
         <br>
-        <a href="http://"{{ username.pages_hostname.repository_name }}"/md/other_stuff.html">Other stuff absolute</a>
-        <br>
-        <a href="http://{{ username.pages_hostname.repository_name }}/md/other_stuff.html">Other stuff</a>
-
-        <p> Bye folks!</p>
 
         {% if site.github.is_project_page %}
           <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
