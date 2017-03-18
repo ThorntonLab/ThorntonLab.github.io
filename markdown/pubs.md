@@ -4,20 +4,21 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 ### 2017
 
-* __Sanjak, J.S.__, A.D. Long, and K.R. Thornton (2017). A Model of Compound Heterozygous, Loss-of-Function Alleles Is Broadly Consistent with Observations from Complex-Disease GWAS Datasets. PLoS Genetics 13 (1): e1006573. [Paper](http://dx.doi.org/10.1371/journal.pgen.1006573)
+* __Sanjak, J.S.__, A.D. Long, and K.R. Thornton (2017). A Model of Compound Heterozygous, Loss-of-Function Alleles Is Broadly Consistent with Observations from Complex-Disease GWAS Datasets. PLoS Genetics 13 (1): e1006573. PMID: 28103232 [Paper](http://dx.doi.org/10.1371/journal.pgen.1006573)
 
 ### 2016
 
-* __Sanjak, J.S.__, A.D. Long and K. R. Thornton (2016) Efficient Software for Multi-marker, Region-Based Analysis of GWAS Data.  G3: Genes, Genomes, Genetics. [ABSTRACT](http://www.g3journal.org/content/early/2016/02/08/g3.115.026013.abstract) [DOI](DOI: 10.1534/g3.115.026013)
+* __Sanjak, J.S.__, A.D. Long and K. R. Thornton (2016) Efficient Software for Multi-marker, Region-Based Analysis of GWAS Data.  G3: Genes, Genomes, Genetics. [ABSTRACT](http://www.g3journal.org/content/early/2016/02/08/g3.115.026013.abstract) PMID: 26865700 [DOI](DOI: 10.1534/g3.115.026013)
 
 ### 2015
 
-* __Rogers, R.L__, __J.M. Cridland__, L. Shao, T. Hu, P. Andolfatto, and K. R. Thornton (2015) Tandem Duplications and the Limits of Natural Selection in _Drosophila yakuba_ and _Drosophila simulans_.  PLoS One. DOI:10.1371/journal.pone.0132184
-* __Cridland, J. M.__, K. R. Thornton and A. D. Long (2015) Gene expression variation in _Drosophila melanogaster_ due to rare transposable element insertion alleles of large effect. Genetics __199__: 85-93. [ABSTRACT](http://www.genetics.org/content/199/1/85.abstract).  This article was chosen as an [issue highlight](http://www.genetics.org/content/199/1/NP.full).
+* __Rogers, R.L__, __J.M. Cridland__, L. Shao, T. Hu, P. Andolfatto, and K. R. Thornton (2015) Tandem Duplications and the Limits of Natural Selection in _Drosophila yakuba_ and _Drosophila simulans_.  PMID: 26176952 PLoS One. DOI:10.1371/journal.pone.0132184
+
+* __Cridland, J. M.__, K. R. Thornton and A. D. Long (2015) Gene expression variation in _Drosophila melanogaster_ due to rare transposable element insertion alleles of large effect. Genetics __199__: 85-93. PMID: 25335504 [ABSTRACT](http://www.genetics.org/content/199/1/85.abstract).  This article was chosen as an [issue highlight](http://www.genetics.org/content/199/1/NP.full).
 
 ### 2014
 
-* __Rogers, R. L.__, __L. Shao__, __J. Sanjak__, P. Andolfatto and K. R. Thornton (2014) Sex-biased expression in the Drosophila melanogaster group.  G3: Genes, Genomes, Genetics. __4__: 2345-2351 [ABSTRACT](http://www.g3journal.org/content/4/12/2345.abstract) [GFF files](https://github.com/ThorntonLab/GFF).  This article has been chosen for the upcoming 2014 G3 "Spotlight" issue.
+* __Rogers, R. L.__, __L. Shao__, __J. Sanjak__, P. Andolfatto and K. R. Thornton (2014) Sex-biased expression in the Drosophila melanogaster group.  G3: Genes, Genomes, Genetics. __4__: 2345-2351 PMID: 25273863 [ABSTRACT](http://www.g3journal.org/content/4/12/2345.abstract) [GFF files](https://github.com/ThorntonLab/GFF).  This article has been chosen for the upcoming 2014 G3 "Spotlight" issue.
 
 * Thornton, K. R. (2014) A C++ template library for efficient forward-time population genetic simulation of large populations.  Genetics 98:157-166  PMID: 24950894, [Manuscript](http://www.genetics.org/content/198/1/157.abstract), [Software](http://molpopgen.github.io/fwdpp)
 
@@ -27,7 +28,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 ### 2013
 
-* __Cridland, J.M.__, S.J. MacDonald, A.D. Long, and K.R Thornton (2013) Abundance and Distribution of Transposable Elements in Two _Drosophila_ QTL Mapping Resources  Molecular Biology and Evolution __30__: 2311-2327. PMID 23883524 [Manuscript](http://mbe.oxfordjournals.org/content/30/10/2311.full)
+* __Cridland, J.M.__, S.J. MacDonald, A.D. Long, and K.R Thornton (2013) Abundance and Distribution of Transposable Elements in Two _Drosophila_ QTL Mapping Resources.  Molecular Biology and Evolution __30__: 2311-2327. PMID 23883524 [Manuscript](http://mbe.oxfordjournals.org/content/30/10/2311.full)
 
 * Thornton, K. R., __A. J. Foran__, and A. D. Long (2013) Properties and modeling of GWAS when complex disease risk is due to non-complementing, deleterious mutations in genes of large effect.  PLoS Genetics __9__: e1003258. PMID 23437004, [Manuscript](http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1003258), [Data](data.html) [Code](https://github.com/ThorntonLab/TFL2013sim) (Note: this code link is for archival purposes and there is a better version of this simulation distributed with [fwdpp](http://molpopgen.github.io/fwdpp).)
 
