@@ -44,7 +44,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 * Sainudiin, R., K. Thornton, J. Harlow, J. Booth, M. Stillman, R. Yoshida, R. Griffiths, G. McVean, and P. Donnelly.  (2010) Experiments with the site-frequency spectrum.  Bulletin of Mathematical Biology, Algebraic Biology Special Edition, 0092-8 __240__, p.1-44. PMID: 21181503 
 
-* _Burke, M. K._, J. P. Dunham, P. Shahrestani, K. R. Thornton, M. R. Rose, and A. D. Long (2010) Genome-wide analysis of a long-term evolution experiment with _Drosophila. Nature __467__, 587–590. PMID 20844486
+* _Burke, M. K._, J. P. Dunham, P. Shahrestani, K. R. Thornton, M. R. Rose, and A. D. Long (2010) Genome-wide analysis of a long-term evolution experiment with _Drosophila_. Nature __467__, 587–590. PMID 20844486
 
 *  __Cridland, J.M.__ and K.R Thornton (2010) Validation of rearrangement breakpoints identified by paired-end sequencing in natural populations of _Drosophila melanogaster_.   Genome Biology and Evolution.  2010: 83-101. PMID 20333226, [Manuscript](http://gbe.oxfordjournals.org/content/2/83.full)
 
