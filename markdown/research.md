@@ -1,22 +1,45 @@
 # Research
 
-The Thornton lab does research in several areas of genomics, population genetics, and statistical genetics. In general, we are interested in using genomic data to understand how genomes evolve. Projects in my lab typically involve large data sets and/or extensive computer simulation. In either case, day-to-day work in the lab tends to emphasize using computational methods to understand something about genetics and evolution.
+We do work in several different areas, all of which fall under the broader topic of population genetics.  We are
+interested in developing tools for the analysis of large genomic data sets as well as efficient simulation tools to
+enable exploration of complex population genetic models.  The overal goals are to (1) understand the contribution of
+structural changes to genome evolution and function, (2) understand the genetics of adaptation, and (3) explore the
+interfact of traditional population- and quantitative- genetics theory with an eye towards understanding adaptation and
+the genetics of heritable traits, especially human disease.
 
-The primary research organisms are fruit flies from various species related to _Drosophila melanogaster_. Recently I have expanded into modeling human association studies in light of explicit population-genetic models.
+### Skills and disciplines
 
-Please see the [Publications](pubs) page for what the lab is up to.
+### Specific areas of interest
 
-If any of these projects sound interesting to you, please visit our page on joining the Thornton lab.
+#### The intersection of population- and quantitative- genetics
 
-Current projects in the lab include:
+We have been exploring the implications of explicit models of allelic heterogeneity on the study of human heritable
+diseases.  A major result from the cloning of single-gene disorders was that there are many different disease-causing
+mutations in the population (allelic heterogeneity).  We have been exploring the implications of such heterogeneity for
+complex diseases via explicit simulations of the heterogeneity models (1).  Recent results (2) suggest that such models
+are broadly compatible with a wide range of observations from human GWAS.  In fact, we show that the heterogeneity model
+in fact reconciles seemingly contradictory observations regarding the contribution of non-additive (dominance) variance
+to human traits.
 
-* The population genomics of _Drosophila simulans_ and _Drosophila yakuba_, two close relatives of _D. melanogaster_. In collaboration with Peter Andolfatto’s lab at Princeton, we have generated the complete genome sequences of 20 individuals from each species, and have re-sequenced the reference strains for each, for a total of 42 genomes. The Thornton lab at UC Irvine prepared the sequencing libraries which were then sequenced at the UCI Genomics High Throughput Core Facility. The minimum sequencing coverage of a single genome is over 50x, and the Thornton lab is currently using these data to describe the extent of copy-number variation in these species and variation due to transposable-element insertions. Related publications include Cridland and Thornton (2010) Genome Biology and Evolution, Mackay et al. (2012) Nature, and Hu et al. (2012) Genome Research.
-* Gene expression and structural variation in Drosophila. We have collected gene expression data using messenger-RNA sequencing (“RNA-seq”) from female flies from the majority of our D. simulans and D. yakuba stocks for which we have complete genomes. Ongoing work in the lab involves using these data to ask if duplication really does lead to more gene product (at the level of transcription), the extent to which there are null alleles segregating due to large deletions, transposable element insertions, etc.
-* Population-genetic models of disease risk. Recent efforts to identify the mutations in the human population which lead to increased risk of genetic disorders are currently able to account for only a small fraction of heritable risk. This “missing heritability” in human association studies has lead to speculation that rare alleles (currently not well-assayed in association studies) must be where the missing heritability is hiding. The literature attempting to model the properties of rare risk alleles typically avoids explicit population-genetic modeling principles, perhaps because they are computationally-challenging. As a result, it is unclear how to efficiently test for an effect of rare alleles in an association study, and it is also unclear what the population-genetic properties of genes harboring risk alleles are. A first, and small, step, at addressing some of these questions was published in Thornton, Foran, and Long (2013), PLoS Genetics. Extending the modeling done in that paper is fertile ground for future theoretical/statistical work on human association studies.
-* The modeling of quantitative traits adapting to new environments
-* The development of efficient software tools for population-genetic simulation
+* (1) [Thornton et al. 2013](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003258)
+* (2) [Sanjak et al. 2017](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1006573)
+
+Related work includes modeling the adaptation of quantitative traits to changing environments ("optimum shifts").  We
+are seeking to understand the dynamics of phenotype adaptation using a framework that doesn't rely on restrictive _a
+priori_
+assumptions about the number of potential "soft" or "hard" selective sweeps.  This work is directly tied in to research
+on effective methods for forward-time simulation (3) and the development of a [Python
+package](https://molpopgen.github.io/fwdpy) for running and analyzing such simulations.
+
+* (3) [Thornton 2014](http://dx.doi.org/10.1534/genetics.114.165019)
+
+#### Evolution of genome structure
+
+### Training
+
+
 
 The lab has active and ongoing collaborations with:
 
-* [JJ Emerson](http://www.faculty.uci.edu/profile.cfm?faculty_id=5987), UC Irvine
+* [JJ Emerson](http://emersonlab.github.io), UC Irvine
 * [Tony Long](http://wfitch.bio.uci.edu/~tdlong/), UC Irvine
