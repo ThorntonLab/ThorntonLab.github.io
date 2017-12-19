@@ -4,6 +4,10 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 ### 2017
 
+* __Sanjak, J.S.__, J. Sidorenko, M.R. Robinson, K.R. Thornton, and P.M. Visscher (early edition) Evidence of
+  directional and stabilizing selection in contemporary humans. PNAS [Early online
+  version](http://www.pnas.org/content/early/2017/12/12/1707227114.full)
+
 * __Rogers, R.R.__, L. Shao, and K.R. Thornton (2017) Tandem duplications lead to novel expression patterns through exon shuffling in _Drosophila yakuba_. PLoS Genetics 13 (5): e1006795 [Paper](http://doi.org/10.1371/journal.pgen.1006795)
 
 * __Sanjak, J.S.__, A.D. Long, and K.R. Thornton (2017) A Model of Compound Heterozygous, Loss-of-Function Alleles Is Broadly Consistent with Observations from Complex-Disease GWAS Datasets. PLoS Genetics 13 (1): e1006573. PMID: 28103232 [Paper](http://dx.doi.org/10.1371/journal.pgen.1006573)
