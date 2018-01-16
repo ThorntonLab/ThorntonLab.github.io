@@ -2,6 +2,13 @@
 
 Names of Thornton lab members are in bold face. The names of students and postdocs from other labs are UCI labs are in italics
 
+### 2018
+
+* Kelleher, J., K.  Thornton, J. Ashander, and P. Ralph (preprint) Efficient pedigree recording for fast population
+  genetics simulation. [BioRxiv](https://www.biorxiv.org/content/early/2018/01/16/248500) [GitHub Repo
+  1](https://github.com/molpopgen/fwdpy11_arg_example) [GitHub Repo 2](https://github.com/ashander/ftprime) [GitHub Repo
+  3](https://github.com/jeromekelleher/msprime)
+
 ### 2017
 
 * __Sanjak, J.S.__, J. Sidorenko, M.R. Robinson, K.R. Thornton, and P.M. Visscher (early edition) Evidence of
