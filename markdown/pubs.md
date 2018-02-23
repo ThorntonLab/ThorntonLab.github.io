@@ -9,11 +9,10 @@ Names of Thornton lab members are in bold face. The names of students and postdo
   1](https://github.com/molpopgen/fwdpy11_arg_example) [GitHub Repo 2](https://github.com/ashander/ftprime) [GitHub Repo
   3](https://github.com/jeromekelleher/msprime)
 
+* __Sanjak, J.S.__, J. Sidorenko, M.R. Robinson, K.R. Thornton, and P.M. Visscher (2018). Evidence of Directional and Stabilizing Selection in Contemporary Humans. PNAS 115 151–56. [Paper](http://www.pnas.org/content/115/1/151)
+
 ### 2017
 
-* __Sanjak, J.S.__, J. Sidorenko, M.R. Robinson, K.R. Thornton, and P.M. Visscher (early edition) Evidence of
-  directional and stabilizing selection in contemporary humans. PNAS [Early online
-  version](http://www.pnas.org/content/early/2017/12/12/1707227114.full)
 
 * __Rogers, R.R.__, L. Shao, and K.R. Thornton (2017) Tandem duplications lead to novel expression patterns through exon shuffling in _Drosophila yakuba_. PLoS Genetics 13 (5): e1006795 [Paper](http://doi.org/10.1371/journal.pgen.1006795)
 
