@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Galago Pro: first impressions"
+date:   2018-04-26
+categories: hardware
+---
+
 # System76 Galago Pro
 
 These are my thoughts on the [System 76](http://www.system76.com) Galago Pro, which is best described as their "MacBook
