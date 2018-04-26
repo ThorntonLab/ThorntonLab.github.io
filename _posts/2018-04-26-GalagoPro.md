@@ -2,7 +2,7 @@
 layout: post
 title:  "Galago Pro: first impressions"
 date:   2018-04-26
-author: Kevin Thornton
+author: molpopgen
 categories: hardware
 ---
 
