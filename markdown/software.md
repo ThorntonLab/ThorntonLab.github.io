@@ -15,17 +15,18 @@ The list below is mostly related to code resulting from publications.  There is 
 
 ### Simulation software
 
-* [fwdpy11](http://github.com/molpopgen/fwdpy11) is a powerful Python environment for forward-time simulation.  It uses [fwdpp](http://github.com/molpopgen/fwdpp) as its back-end.
+* [fwdpy11](http://molpopgen.github.io/fwdpy11) is a powerful Python environment for forward-time simulation.  It uses [fwdpp](http://molpopgen.github.io/fwdpp) as its back-end.
 
 * [pylibseq](http://github.com/molpopgen/pylibseq) is a Python interface to libsequence that can be used to analyze
-  output from [msprime](http://github.com/tskit-dev/msprime) and [fwdpy11](http://github.com/molpopgen/fwdpy11).
+  output from [msprime](http://github.com/tskit-dev/msprime) and [fwdpy11](http://molpopgen.github.io/fwdpy11).
 
 * [ABCreg](https://github.com/molpopgen/abreg) is a tool for performing statistical inference via approximate Bayesian computation, or ABC.  The software was first described [here](http://www.biomedcentral.com/1471-2156/10/35).
 
 ### Retired software
 
 The following tools are no longer maintained and are unsupported.  Most have been superceded by better tools, either by
-us or by others.  
+us or by others. They are listed here because they have been used in papers, and so we keep the code available for
+archival purposes. 
 
 * [Code](https://github.com/molpopgen/newgene) for simulating a neutral coalescent process for copy-number variants that I used in [Thornton 2007](http://www.genetics.org/content/177/2/987.abstract)
 
