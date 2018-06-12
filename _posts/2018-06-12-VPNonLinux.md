@@ -25,3 +25,6 @@ This software provides a VPN client compatible with whatever the Cisco applicati
 configure your VPN under the user settings, and it'll even save your password and which VPN connection you want, for the
 case where your institution has several options.
 
+So far, this solution has given much more stable connections.  The recovery of a connection after putting the laptop to
+sleep works, too! (Although this only works up until the host kills connections that have been dormant too long.)
+
