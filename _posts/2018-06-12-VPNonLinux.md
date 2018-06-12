@@ -8,7 +8,7 @@ categories: linux
 
 # Getting VPN to wrork on Linux
 
-This is a short post on getting a reliable VPN connection working on my [Galago Pro]({{ site.baseurl }}{% post_url 2018-04-26-GalagoPro }).
+This is a short post on getting a reliable VPN connection working on my [Galago Pro]({{ site.baseurl }}{% post_url 2018-04-26-GalagoPro %}).
 
 UCI [encourages](https://uci.service-now.com/kb_view.do?sysparm_article=KB0010201) us to use the Cisco AnyConnect
 application.  My experience was not great.  Compared to the OS X version of the same application, the Linux version
