@@ -6,7 +6,7 @@ author: Kevin Thornton
 categories: linux
 ---
 
-# Getting VPN to wrork on Linux
+# Getting VPN to work on Linux
 
 This is a short post on getting a reliable VPN connection working on my [Galago Pro]({{ site.baseurl }}{% post_url 2018-04-26-GalagoPro %}).
 
