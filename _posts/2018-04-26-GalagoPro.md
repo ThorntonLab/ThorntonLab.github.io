@@ -55,6 +55,19 @@ I've had growing frustrations with OS X and Apple over the years.  Briefly:
 With MS office available "free" now at my institution, and runnable from the cloud, the only application that I think
 I'll miss is Keynote.
 
+# Update, July 18, 2018
+
+The Hi DPI monitor is at first a bit "funny" for applications using GTK2.  Specifically, the icons are tiny when using
+GIMP and Inkscape.  Although it is two mouse clicks to change into Lo DPI mode, it is discombobulating to have your apps
+resizing.  Fortunately, this issue is easy to solve:
+
+1. Install Gimp 2.10 via an unofficial PPA for Ubuntu 18. Details [here](https://itsfoss.com/gimp-2-10-release/).
+2. Install the "trunk" (development) version of Inkscape.  Details
+   [here](https://www.reddit.com/r/linux/comments/79yzvk/tip_inkscape_on_hidpi_displays/).
+
+Also, Gimp 2.10 is an amazing update.  It is much faster, and there are tons of new features.  See [Davies Media
+Design](https://www.daviesmediadesign.com/)'s excellent tutorials for details.
+
 # TL;DR
 
 For the impatient: this is a fantastic machine.  Great configurations available at a big range of price points.  Small,
