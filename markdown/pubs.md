@@ -4,10 +4,9 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 ### 2018
 
-* Kelleher, J., K.  Thornton, J. Ashander, and P. Ralph (preprint) Efficient pedigree recording for fast population
-  genetics simulation. [BioRxiv](https://www.biorxiv.org/content/early/2018/01/16/248500) [GitHub Repo
-  1](https://github.com/molpopgen/fwdpy11_arg_example) [GitHub Repo 2](https://github.com/ashander/ftprime) [GitHub Repo
-  3](https://github.com/jeromekelleher/msprime)
+* Kelleher, J., K.  Thornton, J. Ashander, and P. Ralph (2018) Efficient pedigree recording for fast population
+  genetics simulation. PLoS Computational Biology [DOI](https://doi.org/10.1371/journal.pcbi.1006581) [BioRxiv](https://www.biorxiv.org/content/early/2018/01/16/248500) [GitHub Repo
+  1](https://github.com/molpopgen/fwdpy11_arg_example) [GitHub Repo 2](https://github.com/ashander/ftprime) [GitHub Repo 3](https://github.com/jeromekelleher/msprime)
 
 * __Sanjak, J.S.__, J. Sidorenko, M.R. Robinson, K.R. Thornton, and P.M. Visscher (2018). Evidence of Directional and Stabilizing Selection in Contemporary Humans. PNAS 115 151–56. [Paper](http://www.pnas.org/content/115/1/151)
 
