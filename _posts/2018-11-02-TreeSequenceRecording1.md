@@ -12,7 +12,7 @@ Today, an article co-authored with Jerome Kelleher, Jaime Ashander, and Peter Ra
 Biology](https://doi.org/10.1371/journal.pcbi.1006581).  A preprint on Biorxiv has been up since the beginning of 2018.
 
 The article describes how to use "tree sequences", which are the data structures behind the hyper-efficient coalescent
-simulation [msprime](https://msprime.readthedocs.io/en/stable/) to improve the performance of forward-time simulations.
+simulation [msprime](https://msprime.readthedocs.io/en/stable/), to improve the performance of forward-time simulations.
 The paper shows that multiple order of magnitude speed improvements are possible.  Additionally, you end up with the
 *entire ancestral recombination history* of the population in memory.  This is a game-changer in the field of
 computational population genetics.  We are now able to connect the forwards process to the backwards process via tree
@@ -43,7 +43,7 @@ This simulation took a bit under 15 minutes on my desktop, which is an Intel NuC
 [Meerkat](https://system76.com/desktops/meerkat) for anyone curious).  In that 15 minutes, 5,000 diploids were
 simulated, trait value stuff was recorded, and we end up with an entire ARG/HRG/**nedigree** containing a large number
 of 'dead' individuals.  Very cool.  The compressed output file is 121MB. That's not small, but it is *much* smaller than
-pre-tree-sequence approaches invovling writing samples as you go or writing the entire population out at regular
+pre-tree-sequence approaches involving writing samples as you go or writing the entire population out at regular
 intervals, etc..  The output file contains the entire simulated population plus the tables describing its tree sequence.
 
 ```py
@@ -84,7 +84,7 @@ rho = 10000.0
 theta = rho
 
 
-# Parameters of the optimim shift.
+# Parameters of the optimum shift.
 # The optimum is 0 with VS=1 starting at generation 0
 # After 10N generations, the optimum shifts to 1.0
 optima = [(0, 0, 1), (10*N, 1.0, 1.0)]
