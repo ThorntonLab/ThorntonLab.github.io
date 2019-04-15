@@ -9,4 +9,4 @@ Thie page lists various things related to computational biology that others may 
 
 # Slides, etc., from workshops
 
-* [msprime](msprime_out)
+* [msprime](msprime_out) intro, from a workshop given at UC Davis in December, 2018.
