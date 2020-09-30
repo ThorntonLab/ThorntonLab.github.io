@@ -2,6 +2,13 @@
 
 Names of Thornton lab members are in bold face. The names of students and postdocs from other labs are UCI labs are in italics
 
+### 2020
+
+* Ralph, P., K. Thornton, and J. Kelleher 2020. Efficiently summarizing relationships in large samples: a general duality between statistics of genealogies and genomes.  Genetics 215: 779-797 [DOI](https://doi.org/10.1534/genetics.120.303253)
+### 2019
+
+* Thornton, Kevin R. 2019. Polygenic Adaptation to an Environmental Shift: Temporal Dynamics of Variation under Gaussian Stabilizing Selection and Additive Effects on a Single Trait. Genetics 213: 1513-1530 [DOI](https://doi.org/10.1534/genetics.119.302662)
+ 
 ### 2018
 
 * Stetter, M. G., K. R. Thornton, and J. Ross-Ibarra (2018) Genetic architecture and selective sweeps after polygenic
@@ -11,7 +18,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
   genetics simulation. PLoS Computational Biology [DOI](https://doi.org/10.1371/journal.pcbi.1006581) [BioRxiv](https://www.biorxiv.org/content/early/2018/01/16/248500) [GitHub Repo
   1](https://github.com/molpopgen/fwdpy11_arg_example) [GitHub Repo 2](https://github.com/ashander/ftprime) [GitHub Repo 3](https://github.com/jeromekelleher/msprime)
 
-* Gruning \textit{et al}. (2018) Bioconda: sustainable and comprehensive software distribution for the life sciences. Nature
+* Gruning *et al*. (2018) Bioconda: sustainable and comprehensive software distribution for the life sciences. Nature
   Methods 15, pages475–476 
 
 * __Sanjak, J.S.__, J. Sidorenko, M.R. Robinson, K.R. Thornton, and P.M. Visscher (2018). Evidence of Directional and Stabilizing Selection in Contemporary Humans. PNAS 115 151–56. [Paper](http://www.pnas.org/content/115/1/151)
