@@ -5,6 +5,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 ### 2020
 
 * Ralph, P., K. Thornton, and J. Kelleher 2020. Efficiently summarizing relationships in large samples: a general duality between statistics of genealogies and genomes.  Genetics 215: 779-797 [DOI](https://doi.org/10.1534/genetics.120.303253)
+ 
 ### 2019
 
 * Thornton, Kevin R. 2019. Polygenic Adaptation to an Environmental Shift: Temporal Dynamics of Variation under Gaussian Stabilizing Selection and Additive Effects on a Single Trait. Genetics 213: 1513-1530 [DOI](https://doi.org/10.1534/genetics.119.302662)
