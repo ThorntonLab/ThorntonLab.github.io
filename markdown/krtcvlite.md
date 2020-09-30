@@ -6,7 +6,7 @@
 
 * [My NCBI](http://www.ncbi.nlm.nih.gov/sites/myncbi/kevin.thornton.1/bibliography/40322287/public/?sort=date&direction=descending) bibliography
 
-* [Google Scholar Profile](http://scholar.google.com/citations?user=xUvEtFMAAAAJ&hl=en&oi=ao)
+* [Google Scholar Profile](https://scholar.google.com/citations?user=NFGMzB0AAAAJ&hl=en)
 
 ## Academic appointments
 
