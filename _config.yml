@@ -1,1 +1,20 @@
 theme: jekyll-theme-minimal
+title: Thornton Lab 
+description: Kevin Thornton's lab at UC Irvine
+navigation:
+    - title: Home
+      url: index
+    - title: People
+      url: markdown/people
+    - title: Research
+      url: markdown/research
+    - title: Publications
+      url: markdown/pubs
+    - title: Software
+      url: markdown/software
+    - title: Data
+      url: markdown/data
+    - title: Resources
+      url: markdown/res
+
+
