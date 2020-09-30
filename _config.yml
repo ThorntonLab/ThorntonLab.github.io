@@ -16,5 +16,7 @@ navigation:
       url: markdown/data
     - title: Resources
       url: markdown/res
+    - title: Lab policies and procedures manual
+      url: https://www.molpopgen.org/LabProtocols
 
 
