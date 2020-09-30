@@ -15,7 +15,7 @@ The list below is mostly related to code resulting from publications.  There is 
 
 ### Simulation software
 
-* [fwdpy11](http://molpopgen.github.io/fwdpy11) is a powerful Python environment for forward-time simulation.  It uses [fwdpp](http://molpopgen.github.io/fwdpp) as its back-end.
+* [fwdpy11](http://fwdpy11.readthedocs.io) is a powerful Python environment for forward-time simulation.  It uses [fwdpp](http://molpopgen.github.io/fwdpp) as its back-end.
 
 * [pylibseq](http://github.com/molpopgen/pylibseq) is a Python interface to libsequence that can be used to analyze
   output from [msprime](http://github.com/tskit-dev/msprime) and [fwdpy11](http://molpopgen.github.io/fwdpy11).
