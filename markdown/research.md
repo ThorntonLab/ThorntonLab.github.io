@@ -29,7 +29,7 @@ are seeking to understand the dynamics of phenotype adaptation using a framework
 priori_
 assumptions about the number of potential "soft" or "hard" selective sweeps.  This work is directly tied in to research
 on effective methods for forward-time simulation (3) and the development of a [Python
-package](https://molpopgen.github.io/fwdpy) for running and analyzing such simulations.
+package](https://molpopgen.github.io/fwdpy11) for running and analyzing such simulations.
 
 * (3) [Thornton 2014](http://dx.doi.org/10.1534/genetics.114.165019)
 
