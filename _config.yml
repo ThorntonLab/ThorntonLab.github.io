@@ -12,6 +12,8 @@ navigation:
       url: markdown/pubs
     - title: Software
       url: markdown/software
+    - title: Books and course materials
+      url: markdown/books
     - title: Data
       url: markdown/data
     - title: Resources
