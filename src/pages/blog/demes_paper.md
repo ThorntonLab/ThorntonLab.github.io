@@ -49,7 +49,7 @@ The process is error-prone and has [led to errors](https://www.biorxiv.org/conte
 
 Consider the following scenario:
 
-* An ancestral population of 10,000 individuals splits into two populations 100 generations ago.
+* An ancestral population of 1,000 individuals splits into two populations 100 generations ago.
 * The two derived populations have different initial sizes and grow exponentially to different final sizes.
 * Symmetric migration occurs between the two derived populations over the last 50 generations.
 
