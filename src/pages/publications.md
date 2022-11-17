@@ -14,6 +14,7 @@ Names of Thornton lab members are in bold face. The names of students and postdo
 
 * Gower, G., A. P. Ragsdale, G. Bisschop, R. N. Gutenkunst, M. Hartfield, E. Noskova, S. Schiffels, T. J. Struck, J. Kelleher, K. R. Thornton (2022) Demes: a standard format for demographic models. Genetics 222 (3):iyac131 [DOI](https://doi.org/10.1093/genetics/iyac131)
     * This was a featured article in the November 2022 issue of Genetics
+    * [Blog post](blog/demes_paper)
 
 * Baumdicker *et al.* 2022. Efficient ancestry and mutation simulation with msprime 1.0. Genetics 220(3):iyab229 [DOI](https://doi.org/10.1093/genetics/iyab229)
     * This was a featured article in the March 2022 issue of Genetics
