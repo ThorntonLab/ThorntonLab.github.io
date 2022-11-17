@@ -8,7 +8,7 @@ date: "Nov 16 2022"
 
 # Publications
 
-Names of Thornton lab members are in bold face. The names of students and postdocs from other labs are UCI labs are in italics
+Names of Thornton lab members are in bold face. The names of students and postdocs from other labs are UCI labs are in italics.
 
 ### 2022
 

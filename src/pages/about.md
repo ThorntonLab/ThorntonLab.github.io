@@ -15,7 +15,7 @@ The principal investigator is [Kevin Thornton](https://scholar.google.com/citati
 # Research
 
 We do research in population genetics with an emphasis on computational methods.
-Most current work focusses on methods for efficient simulation and applications of such simulations.
+Most current work focuses on methods for efficient simulation and applications of such simulations.
 Broadly, we are interested in model-based inferences about evolutionary processes.
 We develop and apply simulation methods to perform and evaluate such inferences or ask questions about the properties of complex evolutionary models.
 
