@@ -5,13 +5,15 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+const { title } = Astro.props.frontmatter || Astro.props;
+const { date } = Astro.props.frontmatter || Astro.props;
 ---
 <html lang="en">
   <head>
     <!-- Add other Head elements here, like styles and meta tags. -->
     <Header title={SITE_TITLE} />
     <BaseHead />
-    <title>{frontmatter.title}</title>
+    <title>{title}</title>
   </head>
   <body>
     <main>
@@ -19,7 +21,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
     <!--<h1>{frontmatter.title} by {frontmatter.author}</h1> --->
     <!-- 2. Rendered HTML will be passed into the default slot. -->
     <slot />
-    <p>Written on: {frontmatter.date}</p>
+    <p>Written on: {date}</p>
     <Footer />
   </body>
     <main>
