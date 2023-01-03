@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPost.astro"
 title: "Introducing 'demes'"
 description: "The demes standard"
 pubDate: "Nov 16 2022"
+tags: ["demes", "python", "rust", "fwdpy11", "simulation"]
 ---
 
 # Demes: a standard format for demographic models
