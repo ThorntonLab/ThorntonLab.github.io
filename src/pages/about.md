@@ -54,10 +54,23 @@ ts = msprime.sim_ancestry(5, recombination_rate=1e-8,
 ts = msprime.sim_mutations(
     ts, rate=0.5e-7, random_seed=42**2, model=msprime.InfiniteSites())
 
+rose = "#ebbcba"
+iris = "#c4a7e7"
+muted = "#6e6a86"
+text = "#e0def4"
+foam = "#9ccfd8"
+
 style = (
-    ".node > .lab {font-size: 80%}"
+    f".node > .sym {{transform: scale(2.2); fill: {muted}; stroke: {muted}; stroke-width: 0.5px}}"
+    f".node .lab {{font-size: 90%}} {{fill: {text}}} .lab {{fill: {text}}}"
+    ".tree .node > .lab {transform: translate(0, 0); text-anchor: middle; font-size: 7pt}"
+    f".mut .lab {{fill: {iris}}} .mut .sym {{stroke: {iris}}}"
+    f".edge {{stroke: {rose}; stroke-width: 2}}"
     ".leaf > .lab {text-anchor: start; transform: rotate(90deg) translate(6px)}"
     ".x-axis .tick .lab {text-anchor: end; font-size: 60%}"
+    f".x-axis .site line {{stroke: {iris}}}"
+    f".x-axis .tick line {{stroke: {foam}; stroke-width: 2}}"
+    f".x-axis > line {{stroke: {foam}; stroke-width: 2}}"
 )
 
 ts.draw_svg("treeseq.svg", size=(640, 480), style=style)
