@@ -10,7 +10,7 @@ export default defineConfig({
     // syntax highlight
     markdown: {
       shikiConfig: {
-        theme: 'rose-pine-dawn',
+        theme: 'rose-pine-moon',
       },
     },
     integrations: [mdx()],
