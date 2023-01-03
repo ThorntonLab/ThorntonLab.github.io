@@ -3,30 +3,49 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
+
+/* rose pine color names */
+:root {
+    --base: #191724;
+    --surface: #1f1d2e;
+    --overlay: #26233a;
+    --muted: #6e6a86;
+    --subtle: #908caa;
+    --text: #e0def4;
+    --love: #eb6f92;
+    --gold: #f6c177;
+    --rose: #ebbcba;
+    --pine: #31748f;
+    --foam: #9ccfd8;
+    --iris: #c4a7e7;
+    --highlight-low: #21202e;
+    --highlight-med: #403d52;
+    --highlight-high: #524f67;
+}
+
 body {
 	font-family: Verdana, sans-serif;
 	margin: auto;
 	padding: 20px;
 	max-width: 65ch;
 	text-align: left;
-	background-color: #fff;
+	background-color: var(--base);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
-	color: #444;
+	color: var(--text);
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong,
+h1 {color: var(--iris);}
+h2 {color: var(--iris);}
+h3 {color: var(--iris);}
+h4 {color: var(--iris);}
+h5 {color: var(--iris);}
+h6 {color: var(--iris);}
 b {
-	color: #222;
+	color: var(--rose);
 }
 a {
-	color: #3273dc;
+	color: var(--foam);
 }
 nav a {
 	margin-right: 10px;
@@ -50,13 +69,14 @@ img {
 }
 code {
 	padding: 2px 5px;
-	background-color: #f2f2f2;
+	background-color: var(--highlight-low);
 }
 pre {
 	padding: 1rem;
 }
 pre > code {
 	all: unset;
+    font-family: "Fira Code"
 }
 blockquote {
 	border: 1px solid #999;
