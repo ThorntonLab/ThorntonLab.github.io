@@ -21,7 +21,7 @@ Most current work focuses on methods for efficient simulation and applications o
 Broadly, we are interested in model-based inferences about evolutionary processes.
 We develop and apply simulation methods to perform and evaluate such inferences or ask questions about the properties of complex evolutionary models.
 
-For more detail, see our [publications](publications) and [software](software) pages.
+For more detail, see our [publications](../publications) and [software](../software) pages.
 
 Currently, much of our thinking and collaboration revolves around "tree sequences".
 We work closely with the "tree sequence toolkit", a.k.a. [tskit](https://tskit.dev) team.
