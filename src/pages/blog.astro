@@ -1,19 +1,14 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+import BaseLayout from '../layouts/BaseLayout.astro';
 
 // Use Astro.glob() to fetch all posts, and then sort them by date.
 const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
 );
+const { title } = "Blog posts";
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+<BaseLayout date="Jan 01, 2023">
 		<style>
 			ul {
 				list-style-type: none;
@@ -25,16 +20,9 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 			ul li time {
 				flex: 0 0 130px;
 				font-style: italic;
-				color: #595959;
-			}
-			ul li a:visited {
-				color: #8e32dc;
+				color: var(--rose);
 			}
 		</style>
-	</head>
-	<body>
-		<Header />
-		<main>
 			<section>
 				<ul>
 					{
@@ -53,7 +41,4 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 					}
 				</ul>
 			</section>
-		</main>
-		<Footer />
-	</body>
-</html>
+</BaseLayout>
