@@ -1,10 +1,12 @@
 ---
-layout: "../layouts/BlogPost.astro"
+layout: "../layouts/BaseLayout.astro"
 title: "The Thornton Lab"
 description: "The Thornton Lab at UC Irvine"
-updatedDate: "Nov 15 2022"
+date: "Nov 15 2022"
 heroImage: "/treeseq.svg"
 ---
+
+![A graphical representation of a tree sequence.](/treeseq.svg)
 
 # About
 
