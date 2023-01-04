@@ -62,7 +62,7 @@ archival purposes.
 
 * [omega](https://github.com/molpopgen/omega) Calculates Kim and Nielsen's (2004, Genetics 167:1513) "omega_max" statistic which was explored in Jensen et al. (2007, Genetics 176 2371-3279). Please read the source code for documentation. Both Kim and Nielsen and Jensen et al. should be cited if this code is used--the first for the statistic, the latter for the implementation.
 
-* [msld](https://github.com/molpopgen/msff) calculates LD-related statistics from the output of simulations using the same format as Hudson's ms.
+* [msld](https://github.com/molpopgen/msld) calculates LD-related statistics from the output of simulations using the same format as Hudson's ms.
 
 * [analysis](https://github.com/molpopgen/analysis) programs for the (pre-NGS-era) analysis of population-genetic data.
 
