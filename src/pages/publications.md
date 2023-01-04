@@ -6,6 +6,17 @@ author: the Thornton Lab
 date: "Nov 16 2022"
 ---
 
+<!--Never do more than 2 nested levels, else this style needs fixing-->
+<style>
+li { background: var(--surface) }
+li li:nth-child(even) { background: var(--surface) }
+li li:nth-child(odd) { background: var(--surface) }
+
+li:nth-child(odd) { background: var(--base) }
+li:nth-child(odd) li:nth-child(even) { background: var(--base) }
+li:nth-child(odd) li:nth-child(odd) { background: var(--base) }
+</style>
+
 # Publications
 
 Names of Thornton lab members are in bold face. The names of students and postdocs from other labs are UCI labs are in italics.
