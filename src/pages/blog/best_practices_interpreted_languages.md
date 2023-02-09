@@ -96,15 +96,50 @@ pip freeze | grep numpy >> requirements.txt
 (Don't include all the `pip freeze` output!
 That is the nuclear option and often isn't the right thing to do.)
 
-## Check that code works in isolation
+### R
+
+R doesn't have a tradition of writing down dependencies in a `requirements.txt` file.
+Rather, you should list them in the `README.md` file that is in your GitHub repository:
+
+```markdown
+# Dependencies
+
+In order to work, the following packages mush be available:
+
+* dplyr
+* ggplot2
+```
+
+You get bonus points for providing links to the packages and/or describing how to install them.
+
+You may consider using [packrat](https://rstudio.github.io/packrat/) to manage dependencies for projects based on R.
+If you use that tool, you can provide the lock file in your GitHub repository.
+
 
 ### Dependencies not part of the language ecosystem
 
-## Provide a fake data set
+#### Dependencies not on PyPi or CRAN
 
-## What to do with notebooks
+#### Dependencies written in other languages entirely
+
+## Check that code works in isolation
+
+### What to do with notebooks
+
+## Provide a fake data set?
 
 ## Decide on the fate of the code
+
+## Other things for your README file
+
+It is useful to include:
+
+* The version of Python that you used.
+  The ecosystem moves relatively quickly, so it helps to alert your user which version you were using.
+* The version of R that you used.
+* The operating system that you used for your work.
+  "This work was done on macOS Catalina."    
+* The link to the paper and/or source of the data that the code analyzed.
 
 Main points to get across:
 
