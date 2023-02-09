@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Improving reproducibility of Python and R scripts"
+title: "Tips to improve the reproducibility of Python and R scripts"
 description: "Dependency management, I"
 pubDate: "February 1, 2023"
 draft: true
