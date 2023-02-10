@@ -115,10 +115,44 @@ You get bonus points for providing links to the packages and/or describing how t
 You may consider using [packrat](https://rstudio.github.io/packrat/) to manage dependencies for projects based on R.
 If you use that tool, you can provide the lock file in your GitHub repository.
 
+#### Dependencies not on PyPi or CRAN
+
+Your code may require a dependency sourced from somewhere other than the "official" repository for your language.
+If that dependency is not available from a code sharing source like GitHub, then please describe how to get it in your `README.md`!
+
+Both Python and R have ways of installing packages from GitHub (or Bitbucket or GitLab).
+For example, the Python package `moments` ([paper](https://pubmed.ncbi.nlm.nih.gov/28495960/)) is distributed via Bitbucket.
+We can declare it as a dependency in `requirements.txt` like this:
+
+```
+git+https://bitbucket.org/simongravel/moments.git
+```
+
+However, what we just did isn't great.
+The way we specified `moments` will always pull in the most recent version of the code.
+Here, you probably want to specify the version:
+
+```
+git+https://bitbucket.org/simongravel/moments.git@moments-1.1.14
+```
+
+Above, we specified the "tag" corresponding to version 1.1.14 of that software.
+(To get the list of version for a Bitbucket project, you need to go to the repo, navigate to `Downloads`, and click `tags`.
+Practice at the `moments` [repo](https://bitbucket.org/simongravel/moments).)
+
+There are several ways of installing R packages from GitHub.
+See [here](https://cran.r-project.org/web/packages/githubinstall/vignettes/githubinstall.html) for one method.
+
+#### What is there is no tagged release?
+
+What if you need a dependency from GitHub (or elsewhere) and the project doesn't tag releases?
+You may consider opening an issue ticket and requesting that they do so.
+However, that only helps future users.
+You have already installed it, so what do you do?
+Truthfully, you are probably stuck with just listing it as a dependency from GitHub and moving on.
 
 ### Dependencies not part of the language ecosystem
 
-#### Dependencies not on PyPi or CRAN
 
 #### Dependencies written in other languages entirely
 
