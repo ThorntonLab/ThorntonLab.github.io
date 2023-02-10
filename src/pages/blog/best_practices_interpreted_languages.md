@@ -158,7 +158,6 @@ Say where to get them and, if possible, what versions you used.
 If your used an isolated environment system like [conda](https://docs.conda.io/en/latest/), say so. 
 Write all of this in your `README.md`.
 
-
 ## Check that code works in isolation
 
 ### What to do with notebooks
