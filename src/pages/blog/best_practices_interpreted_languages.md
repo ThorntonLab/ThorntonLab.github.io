@@ -143,7 +143,7 @@ Practice at the `moments` [repo](https://bitbucket.org/simongravel/moments).)
 There are several ways of installing R packages from GitHub.
 See [here](https://cran.r-project.org/web/packages/githubinstall/vignettes/githubinstall.html) for one method.
 
-#### What is there is no tagged release?
+#### What if there is no tagged release?
 
 What if you need a dependency from GitHub (or elsewhere) and the project doesn't tag releases?
 You may consider opening an issue ticket and requesting that they do so.
@@ -151,10 +151,13 @@ However, that only helps future users.
 You have already installed it, so what do you do?
 Truthfully, you are probably stuck with just listing it as a dependency from GitHub and moving on.
 
-### Dependencies not part of the language ecosystem
+### Dependencies written in other languages entirely
 
+If your code requires things not written in Python/R, say so.
+Say where to get them and, if possible, what versions you used.
+If your used an isolated environment system like [conda](https://docs.conda.io/en/latest/), say so. 
+Write all of this in your `README.md`.
 
-#### Dependencies written in other languages entirely
 
 ## Check that code works in isolation
 
