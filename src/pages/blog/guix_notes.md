@@ -11,11 +11,47 @@ tags: [guix]
 
 ## Installation and setup
 
+Install from the shell script online.
+Be sure to say Yes to "do the SELinux setup".
+Reboot.
+
+After reboot:
+
+```sh
+guix pull
+``
+
+```
+guix pull: error: remounting /gnu/store writable: Permission denied
+```
+
+Googling this message yields little useful info.
+This has happened on 2 different machines.
+
+Instructions from [here](https://jfearn.fedorapeople.org/fdocs/en-US/Fedora/20/html/Security_Guide/sect-Security-Enhanced_Linux-Fixing_Problems-Allowing_Access_audit2allow.html), suggested [here](https://mastodon.social/@starlily/111013341929599928) didn't help:
+
+sudo grep guix /var/log/audit/audit.log|sudo audit2allow -R -M guixremount.te
+could not open interface info [/var/lib/sepolgen/interface_info]
+
+sudo semodule -i guixremount.te 
+libsemanage.semanage_pipe_data: Child process /usr/libexec/selinux/hll/te failed with code: 1. (No such file or directory).
+guixremount: libsemanage.semanage_pipe_data: Unable to execute /usr/libexec/selinux/hll/te : No such file or directory
+guixremount:  (No such file or directory).
+libsemanage.semanage_direct_commit: Failed to compile hll files into cil files.
+ (No such file or directory).
+semodule:  Failed!
+
+From [here](https://unix.stackexchange.com/questions/665410/how-to-install-selinux-policy-for-guix-daemon-service-on-fedora), tried the mods of /gnu/store.
+Then reboot...
+
+Failed
+
 ## guix describe
 
 ```sh
 guix describe -f channels
 ``` 
+
 
 gives:
 
