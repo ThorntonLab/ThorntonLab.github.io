@@ -10,7 +10,7 @@ heroImage: "/treeseq.svg"
 
 # About
 
-We are in the [Department of Ecology and Evolutionary Biology](https://ecoevo.bio.uci.edu/) at [UC Irvine](https://www.uci.edu).
+We are in the [Department of Systems Biology](https://systems.bio.uci.edu/) at [UC Irvine](https://www.uci.edu).
 
 The principal investigator is [Kevin Thornton](https://scholar.google.com/citations?user=NFGMzB0AAAAJ&hl=en&oi=ao).
 
@@ -28,12 +28,8 @@ We work closely with the "tree sequence toolkit", a.k.a. [tskit](https://tskit.d
 
 # Information for prospective students
 
-The lab is associated with the following graduate programs:
-
-* The [EEB](https://ecoevo.bio.uci.edu/) departmental program.
-* The [program](https://ccbs.uci.edu/education/mcsb/) in Mathematical, Computational & Systems Biology, aka "MCSB".
-
 I strongly encourage prospective students to contact me by email to discuss which program would be most appropriate for them. 
+I am affiliated with multiple graduate programs and the local landscape keeps changing regarding graduate student support.
 
 The lab's research is entirely computational.
 Ideally, incoming students are comfortable working in a Linux environment and have some familiarity with programming.
