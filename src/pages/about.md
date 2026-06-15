@@ -10,7 +10,7 @@ heroImage: "/treeseq.svg"
 
 # About
 
-We are in the [Department of Ecology and Evolutionary Biology](https://ecoevo.bio.uci.edu/) at [UC Irvine](https://www.uci.edu).
+We are in the [Department of Systems Biology](https://systems.bio.uci.edu/) at [UC Irvine](https://www.uci.edu).
 
 The principal investigator is [Kevin Thornton](https://scholar.google.com/citations?user=NFGMzB0AAAAJ&hl=en&oi=ao).
 
