@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-const allPosts = await Astro.glob("./blog/*.md");
+const allPosts = Object.values(import.meta.glob('./blog/*.md', { eager: true }));
 const filteredPosts = allPosts.filter(
     (post) => import.meta.env.DEV || !post.frontmatter.draft
 );
