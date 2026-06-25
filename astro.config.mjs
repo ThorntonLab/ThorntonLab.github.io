@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://www.molpopgen.org',
+	site: 'https://thorntonlab.github.io',
 	integrations: [mdx(), sitemap()],
     // syntax highlight
     markdown: {
