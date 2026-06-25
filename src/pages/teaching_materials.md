@@ -8,4 +8,4 @@ date: "Nov 16 2022"
 
 # Teaching material
 
-* [Visual guide](https://www.molpopgen.org/visual-popgen/intro.html) to concepts in population genetics.
+* [Visual guide](https://thorntonlab.github.io/visual-popgen/intro.html) to concepts in population genetics.
